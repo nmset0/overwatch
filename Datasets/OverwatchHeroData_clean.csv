@@ -1,0 +1,702 @@
+"","id","year","month","month_num","hero","role","ability","change","is_nerf","is_buff","skins","days_since_release","skin_ratio","number_of_changes","patch_ratio","nerf_ratio","buff_ratio"
+"1",1,2022,"November",11,"dva","tank","call mech","cost reduced by 12%",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"2",2,2022,"November",11,"dva","tank","fusion cannons","spread increased to 3.75",1,0,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"3",3,2022,"November",11,"dva","tank","boosters","damage reduced to 15",1,0,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"4",4,2022,"November",11,"zarya","tank","particle barrier","duration reduced to 2 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"5",5,2022,"November",11,"zarya","tank","particle barrier","cooldown increased to 11 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"6",6,2022,"November",11,"zarya","tank","projected barrier","duration reduced to 2 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"7",7,2022,"November",11,"zarya","tank","projected barrier","cooldown increased to 11 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"8",8,2022,"November",11,"genji","damage","shuriken","ammo reduced to 24",1,0,44,749,0.0352846832397755,5,0.00714285714285714,0.4,0.6
+"9",9,2022,"November",11,"genji","damage","shuriken","damage reduced to 27",1,0,44,749,0.0352846832397755,5,0.00714285714285714,0.4,0.6
+"10",10,2022,"November",11,"junkrat","damage","steel trap","arming time increased to 0.75 secondsond",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"11",11,2022,"November",11,"junkrat","damage","steel trap","duration trapped reduced to 2.5 secondsond",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"12",12,2022,"November",11,"sombra","damage","hack","duration reduced to 1.5 secondsond",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"13",13,2022,"November",11,"sombra","damage","hack","hacked enemies no longer valid targets for hacking for duration of effect",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"14",14,2022,"November",11,"sombra","damage","hack","damage multiplier reduced to 25%",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"15",15,2022,"November",11,"kiriko","tank","swift step","invulnerability duration reduced to 0.25 secondsond",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"16",16,2022,"December",12,"doomfist","tank","rocket punch","cooldown increased to 4 secondsond",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"17",17,2022,"December",12,"doomfist","tank","power block","minimum damage mitigated to empower rocket punch increased to 100 damage",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"18",18,2022,"December",12,"doomfist","tank","the best defense...'","temporary health gained per target hit decreased to 35 health",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"19",19,2022,"December",12,"orisa","tank","terra surge","pierces through barriers",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"20",20,2022,"December",12,"orisa","tank","fusion driver","damage falloff range increased to 25m",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"21",21,2022,"December",12,"ramattra","tank","nemesis form","movement speed increased by 20%",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"22",22,2022,"December",12,"ramattra","tank","nemesis form","armor bonus increased to 225",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"23",23,2022,"December",12,"ramattra","tank","void barrier","cooldown reduced to 13 secondsond",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"24",24,2022,"December",12,"sojourn","damage","railgun","primary fire spread increased by 28%",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"25",25,2022,"December",12,"sojourn","damage","disruptor shot","no longer slows enemies",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"26",26,2022,"December",12,"sojourn","damage","power slide","cooldown increased to 7 secondsond",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"27",27,2022,"December",12,"tracer","damage","pulse pistols","damage reduced to 5.5",1,0,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"28",28,2022,"December",12,"ana","support","biotic rifle","damage/healing increased to 75",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"29",29,2022,"December",12,"ana","support","biotic grenade","duration increased to 4 secondsond",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"30",30,2022,"December",12,"kiriko","support","protection suzu","invulnerability duration reduced to 0.85 secondsond",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"31",31,2023,"January",1,"orisa","tank","fortify","health bonus reduced to 75",1,0,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"32",32,2023,"January",1,"roadhog","tank","scrap gun","recovery time reduced to 0.8 secondsond",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"33",33,2023,"January",1,"roadhog","tank","scrap gun","reload time reduced to 1.75 secondsond",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"34",34,2023,"January",1,"roadhog","tank","scrap gun","maximum ammo increased to 6",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"35",35,2023,"January",1,"roadhog","tank","scrap gun","damage/pellet reduced to 6",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"36",36,2023,"January",1,"roadhog","tank","chain hook","enemy final distance increased to 4",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"37",37,2023,"January",1,"roadhog","tank","chain hook","impact damage reduced to 5",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"38",38,2023,"January",1,"sojourn","support","railgun","energy gain based on hit against enemy player",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"39",39,2023,"January",1,"sojourn","support","railgun","primary fire damage/projectile reduced to 9",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"40",40,2023,"January",1,"kiriko","support","healing ofuda","recovery time increased to 1 secondsond",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"41",41,2023,"March",3,"orisa","tank","terra surge","terra surge can be interrupted by sombra’s hack",1,0,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"42",42,2023,"March",3,"ramattra","tank","annihilation","using annihilation while in nemesis form refreshes bonus armor",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"43",43,2023,"March",3,"roadhog","tank","chain hook","cooldown reduced to 6 secondsond",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"44",44,2023,"March",3,"roadhog","tank","chain hook","cooldown starts when ability ends instead of when ability start",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"45",45,2023,"March",3,"wrecking ball","tank","minefield","arming time increased to 1.25 secondsond",1,0,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"46",46,2023,"March",3,"zarya","tank","particle barrier","shared cooldown for particle barrier and projected barrier reduced to 10 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"47",47,2023,"March",3,"ashe","damage","b.o.b.","b.o.b. now prefers to shoot at enemy targets that ashe damages with her rifle",0,1,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"48",48,2023,"March",3,"hanzo","damage","lunge","cooldown decreased to 4 secondsond",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"49",49,2023,"March",3,"mei","damage","blizzard","ultimate cast time reduced to 0.4 secondsond",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"50",50,2023,"March",3,"pharah","damage","jump jet","movement now influenced by directional inputs",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"51",51,2023,"March",3,"sojourn","damage","hit_points","torso hit volume width increased by 20%",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"52",52,2023,"March",3,"baptiste","support","immortality field","minimum health threshold increased to 25%",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"53",53,2023,"April",4,"lifeweaver","support","healing blossom","ammo count increased to 20 ",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"54",54,2023,"April",4,"lifeweaver","support","healing blossom","slow now steadily applies after 1 secondsondof max charge being held",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"55",55,2023,"April",4,"lifeweaver","support","thorn volley","projectile size reduced from .125 to .1",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"56",56,2023,"April",4,"lifeweaver","support","thorn volley","spread pattern adjusted, with random spread reduced. 1 of the 2 projectiles per shot now fires closer to the crosshair",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"57",57,2023,"April",4,"lifeweaver","support","tree of life","health increased from 1000 to 1200",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"58",58,2023,"April",4,"lifeweaver","support","tree of life","healing pulse increased from 50 to 75",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"59",59,2023,"April",4,"lifeweaver","support","parting gift (passive)","removed from game",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"60",60,2023,"May",5,"junker queen","tank","scattergun","maximum ammo increased from 6 to 8",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"61",61,2023,"May",5,"junker queen","tank","jagged blade","projectile size increased from 0.15 to 0.20 meters",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"62",62,2023,"May",5,"junker queen","tank","rampage","now deals 40 impact damage",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"63",63,2023,"May",5,"junker queen","tank","rampage","wound damage decreased from 100 to 60",1,0,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"64",64,2023,"May",5,"junker queen","tank","adrehit_pointsline rush","adrenaline passive healing multiplier increased from 1.25 to 2x damage dealt by wounds",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"65",65,2023,"May",5,"orisa","tank","augmented fusion driver","damage increased from 12 to 13",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"66",66,2023,"May",5,"winston","tank","jet pack","damage radius before falloff begins increased from 1 to 1.3 meters",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"67",67,2023,"May",5,"wrecking ball","tank","adaptive shield","effect duration decreased from 9 to 7 secondsond",1,0,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"68",68,2023,"May",5,"echo","damage","duplicate","ultimate cost reduced 25%",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"69",69,2023,"May",5,"echo","damage","duplicate","ultimate generation decreased from 5.5x to 4x while duplicate is active",1,0,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"70",70,2023,"May",5,"junkrat","damage","concussion mine","maximum damage increased from 100 to 110",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"71",71,2023,"May",5,"ana","support","biotic grenade","explosion healing decreased from 100 to 60",1,0,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"72",72,2023,"May",5,"baptiste","support","immortality field","cooldown decreased from 25 to 23 secondsond",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"73",73,2023,"May",5,"kiriko","support","kuhit_pointsi","kunai reloads after 65% percent of the animation has completed (formerly 75%)",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"74",74,2023,"May",5,"kiriko","support","kuhit_pointsi","new hero option: ""healing ofuda cancels reload""",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"75",75,2023,"May",5,"lifeweaver","support","life grip","reinhardt is no longer a valid target for life grip during earthshatter, and using earthshatter will cancel life grip.",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"76",76,2023,"June",6,"cassidy","damage","magnetic grenade","seeking radius lowered from 1.5 to 1.3 meters.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"77",77,2023,"June",6,"cassidy","damage","magnetic grenade","homing duration lowered from 1 to 0.75 secondsond.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"78",78,2023,"June",6,"mei","damage","endothermic blaster","maximum slow applied by primary fire reduced from 50% to 40%",1,0,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"79",79,2023,"June",6,"mei","damage","endothermic blaster","primary fire damage per secondsondincreased from 55 to 70",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"80",80,2023,"June",6,"mei","damage","deep chill (passive)","maximum slow applied when this effect activates reduced from 75% to 65%.",1,0,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"81",81,2023,"June",6,"lifeweaver","support","thorn volley","increased the number of projectiles to reach maximum spread from 0 to 20",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"82",82,2023,"June",6,"lifeweaver","support","thorn volley","maximum ammo increased from 70 to 80",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"83",83,2023,"July",7,"orisa","tank","fortify","damage reduction increased from 40 to 50%",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"84",84,2023,"July",7,"ramattra","tank","ravenous vortex","the projectile now passes through enemy heroes but is still blocked by barriers.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"85",85,2023,"July",7,"reinhardt","tank","barrier field","maximum health increased from 1200 to 1400",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"86",86,2023,"July",7,"wrecking ball","tank","quad cannons","manual reload time reduced from 2 to 1.6 secondsond.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"87",87,2023,"July",7,"sojourn","damage","railgun","number of shots to reach maximum spread increased from 8 to 12",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"88",88,2023,"July",7,"sojourn","damage","railgun","spread reduced by 12%",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"89",89,2023,"July",7,"soldier: 76","damage","heavy pulse rifle","damage increased from 18 to 19",0,1,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"90",90,2023,"July",7,"soldier: 76","damage","helix rockets","explosion damage increased from 80 to 90",0,1,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"91",91,2023,"July",7,"soldier: 76","damage","biotic field","healing per secondsondincreased from 35 to 40",0,1,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"92",92,2023,"July",7,"symmetra","damage","photon projector","secondary fire maximum impact damage increased from 45 to 50",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"93",93,2023,"July",7,"symmetra","damage","photon projector","secondary fire maximum explosion damage increased from 45 to 50",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"94",94,2023,"July",7,"symmetra","damage","photon projector","regenerate up to 30 shield health per secondsond when primary fire deals damage to barriers or enemies with shield health.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"95",95,2023,"July",7,"symmetra","damage","sentry turret","damage per secondsondreduced from 40 to 25",1,0,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"96",96,2023,"July",7,"symmetra","damage","sentry turret","turrets now reveal enemy heroes to allies while dealing damage and for 1 additional secondsond afterwards",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"97",97,2023,"July",7,"torbjorn","damage","rivet gun","secondary fire spread reduced from 5 to 4.5 degrees",1,0,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"98",98,2023,"July",7,"torbjorn","damage","deploy turret","damage reduced from 14 to 11",1,0,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"99",99,2023,"July",7,"torbjorn","damage","deploy turret","cooldown increased from 10 to 12 secondsond",1,0,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"100",100,2023,"July",7,"torbjorn","damage","overload","now reloads 6 ammo on use",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"101",101,2023,"July",7,"kiriko","support","healing ofuda","recovery reduced from 1 to 0.9 secondsond",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"102",102,2023,"July",7,"zenyatta","support","orb of discord","maximum range reduced from 40 to 30 meters",1,0,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"103",103,2023,"July",7,"zenyatta","support","orb of discord","time to wear off the target when not in line-of-sight reduced from 2 to 1.5 secondsond",1,0,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"104",104,2023,"August",8,"illari","support","healing pylon","heal decreased from 40 to 30",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"105",105,2023,"August",8,"illari","support","healing pylon","shields decreased from 75 to 50",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"106",106,2023,"August",8,"illari","support","captive sun","projectile impact and explosion are now blocked by barriers",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"107",107,2023,"August",8,"illari","support","captive sun","projectile size decreased from 1.5 to 0.75 meters",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"108",108,2023,"August",8,"illari","support","captive sun","sunstruck duration decreased from 7 to 6 secondsond",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"109",109,2023,"September",9,"bastion","damage","reconfigure","no longer restores armor when transforming",1,0,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"110",110,2023,"October",10,"dva","tank","fusion cannons","movement speed penalty reduced from 40 to 30%",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"111",111,2023,"October",10,"dva","tank","micro missiles","projectile speed increased from 40 to 50",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"112",112,2023,"October",10,"doomfist","tank","rocket punch","minimum wall stun duration decreased from 0.25 to 0.15 secondsond",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"113",113,2023,"October",10,"doomfist","tank","rocket punch","maximum wall stun duration decreased from 0.75 to 0.6 secondsond",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"114",114,2023,"October",10,"winston","tank","tesla cannon","secondary fire range increased from 30 to 40 meters",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"115",115,2023,"October",10,"bastion","damage","configuration: assault","cooldown increased from 10 to 12 secondsond",1,0,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"116",116,2023,"October",10,"bastion","damage","configuration: assault","weapon spread increased 10%",1,0,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"117",117,2023,"October",10,"cassidy","damage","magnetic grenade","cooldown increased from 10 to 12 secondsond",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"118",118,2023,"October",10,"mei","damage","endothermic blaster","slow effect decreased from 40 to 30%",1,0,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"119",119,2023,"October",10,"sombra","damage","emp","ultimate cost decreased 10%",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"120",120,2023,"October",10,"symmetra","damage","hit_points","base shield health reduced from 125 to 100 (total 200 hp",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"121",121,2023,"October",10,"widowmaker","damage","widow's kiss","unscoped shots to reach maximum spread increased from 3 to 7",1,0,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"122",122,2023,"October",10,"widowmaker","damage","infra-sight","ultimate cost reduced 10%",0,1,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"123",123,2023,"October",10,"ana","support","biotic grenade","cooldown increased from 10 to 12 secondsond",1,0,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"124",124,2023,"October",10,"baptiste","support","immortality field","health decreased from 150 to 125",1,0,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"125",125,2023,"October",10,"baptiste","support","immortality field","cooldown increased from 23 to 25 secondsond",1,0,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"126",126,2023,"October",10,"illari","support","solar rifle","primary fire projectile size reduced from 0.1 to 0.05 meters",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"127",127,2023,"October",10,"illari","support","healing pylon","base health reduced from 75 to 50 (total 100 hp)",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"128",128,2023,"October",10,"illari","support","healing pylon","cooldown when destroyed increased from 12 to 15 secondsond",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"129",129,2023,"October",10,"kiriko","support","protection suzu","cooldown increased from 14 to 15 secondsond",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"130",130,2023,"October",10,"lifeweaver","support","healing blossom","ammo reduced from 20 to 16",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"131",131,2023,"October",10,"lifeweaver","support","healing blossom","max heal reduced from 75 to 70",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"132",132,2023,"October",10,"lifeweaver","support","life grip","cooldown increased from 16 to 19 secondsond",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"133",133,2023,"October",10,"zenyatta","support","harmony orb","time to wear off when not in line-of-sight increased from 3 to 5 secondsond",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"134",134,2023,"October",10,"zenyatta","support","orb of discord","can no longer be reapplied to the same target for 7 secondsond after the effect has been removed",1,0,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"135",135,2023,"October",10,"zenyatta","support","orb of discord","range increased from 30 to 40 meters",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"136",136,2023,"November",11,"roadhog","tank","take a breather","total healing increased from 450 to 500",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"137",137,2023,"November",11,"roadhog","tank","take a breather","damage reduction increased from 30 to 40%",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"138",138,2023,"November",11,"roadhog","tank","take a breather","maximum duration reduced from 3 to 2.5 secondsond",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"139",139,2023,"November",11,"roadhog","tank","take a breather","recharge time reduced from 12 to 10 secondsond",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"140",140,2023,"November",11,"roadhog","tank","take a breather","cooldown for each use decreased from 8 secondsond to 1 secondsond",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"141",141,2023,"November",11,"roadhog","tank","take a breather","take a breather requires 12 secondsond to reach full charge from empty",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"142",142,2023,"November",11,"roadhog","tank","scrap gun","total damage per shot increased from 150 to 160",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"143",143,2023,"November",11,"roadhog","tank","scrap gun","shotgun pellet count reduced from 25 to 16",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"144",144,2023,"November",11,"roadhog","tank","scrap gun","shotgun pellet damage increased from 6 to 6.25",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"145",145,2023,"November",11,"roadhog","tank","scrap gun","critical damage multiplier reduced from 2x to 1.5x",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"146",146,2023,"November",11,"roadhog","tank","pig pen","ability added to game",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"147",147,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","chaingun damage reduced from 5 to 4.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"148",148,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","the number of shots with the incendiary chaingun to ignite enemies increased from 10 to 15.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"149",149,2023,"December",12,"mauga","tank","cage fight","ultimate duration reduced from 10 to 8 secondsond",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"150",150,2023,"December",12,"doomfist","tank","meteor strike","now regenerates 75 health per secondsondwhile in the air",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"151",151,2023,"December",12,"doomfist","tank","meteor strike","ultimate cost increased 16%",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"152",152,2023,"December",12,"junker queen","tank","scattergun","spread reduced 8%",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"153",153,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","spread for firing both guns reduced 15%.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"154",154,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","fire rate multiplier for firing both guns reduced from 25% to 0%.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"155",155,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","damage per shot increased from 4.5 to 5.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"156",156,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","damage falloff range increased from 25 to 30 meters.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"157",157,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","max ammo increased from 300 to 350.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"158",158,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","movement speed penalty reduced from 20% to 15% per gun.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"159",159,2023,"December",12,"mauga","tank","overrun","can no longer be interrupted by hack.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"160",160,2023,"December",12,"mauga","tank","overrun","damage reduction increased from 30 to 50%.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"161",161,2023,"December",12,"mauga","tank","cardiac overdrive","lifesteal increased from 60 to 70%",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"162",162,2023,"December",12,"mauga","tank","berserker","overhealth conversion rate increased from 40% to 50%",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"163",163,2023,"December",12,"ramattra","tank","hit_points","base health reduced from 300 to 200",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"164",164,2023,"December",12,"ramattra","tank","hit_points","base armor increased from 0 to 100.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"165",165,2023,"December",12,"ramattra","tank","void accelerator","projectile size increased from 0.075 to 0.1 meters.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"166",166,2023,"December",12,"ramattra","tank","void accelerator","damage increased from 4.5 to 5.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"167",167,2023,"December",12,"sigma","tank","experimental barrier","regeneration rate reduced from 100 to 85 health per secondsond.",1,0,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"168",168,2023,"December",12,"winston","tank","tesla cannon","now ignores armor damage reduction.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"169",169,2023,"December",12,"mei","damage","endothermic blaster","maximum ammo reduced from 150 to 120.",1,0,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"170",170,2023,"December",12,"soldier: 76","damage","biotic field","cooldown increased from 15 to 18 secondsond.",1,0,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"171",171,2023,"December",12,"sombra","damage","emp","ability lockout duration increased from 1.5 to 3 secondsond",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"172",172,2023,"December",12,"sombra","damage","emp","damage reduced from 30 to 25% of current health.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"173",173,2023,"December",12,"torbjorn","damage","overload","overhealth increased from 75 to 100.",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"174",174,2023,"December",12,"tracer","damage","pulse pistols","damage increased from 5.5 to 6.",0,1,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"175",175,2023,"December",12,"baptiste","support","biotic launcher","primary fire ammo reduced from 45 to 36.",1,0,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"176",176,2023,"December",12,"brigitte","support","whip shot","damage reduced from 80 to 70.",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"177",177,2023,"December",12,"kiriko","support","healing ofuda","projectile speed increased from 14 to 18 meters per secondsond.",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"178",178,2023,"January",1,"kiriko","support","protection suzu","invulnerability duration reduced from 0.85 to 0.65 secondsond.",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"179",179,2023,"February",2,"kiriko","support","protection suzu","healing explosion increased from 40 to 80 health.",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"180",180,2023,"December",12,"mercy","support","valkyrie","activating valkyrie no longer disconnects caduceus staff from its target.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"181",181,2023,"December",12,"mauga","tank","hit_points","base health decreased from 350 to 250",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"182",182,2023,"December",12,"mauga","tank","hit_points","base armor increased from 150 to 250",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"183",183,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","number of shots with the incendiary chaingun to ignite enemies reverted from 15 to 10",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"184",184,2023,"December",12,"mauga","tank","incendiary and volatile chainguns","spread decreased from 1.1 to 1 when only one chaingun is active.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"185",185,2023,"December",12,"mauga","tank","berserker","overhealth conversion rate increased from 50% to 60%",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"186",186,2024,"January",1,"mauga","tank","berserker","overhealth conversion rate decreased from 60% to 50%.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"187",187,2024,"January",1,"mauga","tank","incendiary and volatile chainguns","ammo decreased from 350 to 300.
+",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"188",188,2024,"January",1,"mauga","tank","cardiac overdrive","lifesteal decreased from 70% to 60%.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"189",189,2024,"January",1,"mauga","tank","cardiac overdrive","cooldown increased from 10 secondsond to 12 secondsond.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"190",190,2024,"January",1,"mauga","tank","hit_points","base health increased from 250 to 300.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"191",191,2024,"January",1,"mauga","tank","hit_points","base armor decreased from 250 to 200.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"192",192,2024,"January",1,"mauga","tank","cage fight","no longer grants infinite ammo. still reloads mauga’s chainguns at the start of the ultimate",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"193",193,2024,"January",1,"orisa","tank","augmented fusion driver","removed falloff damage penalty.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"194",194,2024,"January",1,"orisa","tank","fortify","now immune to taking forced critical hit damage",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"195",195,2024,"January",1,"roadhog","tank","take a breather","total amount healed reduced from 500 to 450.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"196",196,2024,"January",1,"roadhog","tank","take a breather","cooldown between usages increased from 1 to 1.5 secondsond.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"197",197,2024,"January",1,"sojourn","damage","railgun","gradual energy no longer decays below 25%",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"198",198,2024,"January",1,"sombra","damage","stealth","grace period where stealth can be canceled immediately after entering it increased from 0.5 to 0.75 secondsond",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"199",199,2024,"January",1,"sombra","damage","stealth","cooldown now pauses at 1 secondsondwhile capturing or contesting objectives from 1.5 secondsond",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"200",200,2024,"January",1,"sombra","damage","stealth","cooldown on respawning decreased from 1.5 to 1 secondsond",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"201",201,2024,"January",1,"ana","support","biotic grenade","effect duration reduced from 3.5 to 3 secondsond",1,0,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"202",202,2024,"January",1,"illari","support","solar rifle","rimary fire charge gain is no longer paused by secondsondary fire, nor channeling captive sun",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"203",203,2024,"January",1,"illari","support","solar rifle","ammo increased from 14 to 16.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"204",204,2024,"January",1,"illari","support","captive sun","now fully refills secondsondary fire resource and resets overheated status.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"205",205,2024,"January",1,"illari","support","captive sun","removed the damage falloff penalty on the sunstruck explosion",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"206",206,2024,"January",1,"lifeweaver","support","thorn volley","projectile speed increased from 70 to 80 meters per secondsond",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"207",207,2024,"January",1,"lifeweaver","support","petal platform","no longer pierced by piercing projectiles",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"208",208,2024,"February",2,"zenyatta","support","hit_points","health increased from 75 to 100",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"209",209,2024,"February",2,"zenyatta","support","hit_points","shields increased from 150 to 175",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"210",210,2024,"February",2,"moira","support","hit_points","health increased from 200 to 250",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"211",211,2024,"February",2,"moira","support","biotic grasp","secondary fire damage increased from 50 to 65 damage per secondsond",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"212",212,2024,"February",2,"moira","support","biotic grasp","secondary fire target acquisition radius increased from 0.6 to 0.7 meters.",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"213",213,2024,"February",2,"mercy","support","hit_points","health increased from 200 to 250.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"214",214,2024,"February",2,"mercy","support","gaurdian angel","active duration on jump/crouch cancel reduced from 1.5 to 1 secondsond",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"215",215,2024,"February",2,"mercy","support","sympathetic recovery","health recovered increased from 25% to 40% of healing dealt",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"216",216,2024,"February",2,"lucio","support","hit_points","health increased from 200 to 250",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"217",217,2024,"February",2,"lucio","support","soundwave","damage increased from 25 to 35",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"218",218,2024,"February",2,"lucio","support","soundwave","knockback increased 12%",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"219",219,2024,"February",2,"lucio","support","soundwave","movement lockout duration increased from 0.3 to 0.45 secondsond",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"220",220,2024,"February",2,"lifeweaver","support","hit_points","health increased from 175 to 225",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"221",221,2024,"February",2,"kiriko","support","hit_points","health increased from 200 to 250",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"222",222,2024,"February",2,"kiriko","support","kuhit_pointsi","base projectile size reduced from 0.18 to 0.15 meters",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"223",223,2024,"February",2,"illari","support","hit_points","health increased from 200 to 250",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"224",224,2024,"February",2,"brigitte","support","hit_points","health increased from 150 to 200",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"225",225,2024,"February",2,"brigitte","support","rocket flail","damage increased from 35 to 45",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"226",226,2024,"February",2,"ana","support","hit_points","health increased from 200 to 250",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"227",227,2024,"February",2,"baptiste","support","hit_points","health increased from 200 to 250",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"228",228,2024,"February",2,"widowmaker","damage","hit_points","health increased from 175 to 200",0,1,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"229",229,2024,"February",2,"tracer","damage","hit_points","health increased from 150 to 175",0,1,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"230",230,2024,"February",2,"torbjorn","damage","hit_points","health increased from 200 to 250",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"231",231,2024,"February",2,"symmetra","damage","hit_points","shields increased from 100 to 150",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"232",232,2024,"February",2,"symmetra","damage","photon projector","primary fire beam width increased from 0.2 to 0.25 meters",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"233",233,2024,"February",2,"sombra","damage","hit_points","health increased from 200 to 250",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"234",234,2024,"February",2,"soldier: 76","damage","hit_points","health increased from 200 to 250",0,1,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"235",235,2024,"February",2,"sojourn","damage","hit_points","health increased from 200 to 250",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"236",236,2024,"February",2,"sojourn","damage","railgun","secondary fire base projectile size reduced from 0.1 to 0.07 meters",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"237",237,2024,"February",2,"reaper","damage","hit_points","health increased from 250 to 300",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"238",238,2024,"February",2,"pharah","damage","hit_points","health increased from 200 to 250",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"239",239,2024,"February",2,"pharah","damage","rocket launcher","recovery reduced from 0.85 to 0.80 secondsond",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"240",240,2024,"February",2,"pharah","damage","rocket launcher","projectile speed increased from 35 to 40 meters per secondsond",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"241",241,2024,"February",2,"pharah","damage","rocket launcher","explosion self-damage reduced from 50% to 25%",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"242",242,2024,"February",2,"pharah","damage","jump jet","now restores 50% of hover jets fuel and can briefly overfill the maximum fuel amount",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"243",243,2024,"February",2,"pharah","damage","jump jet","vertical boost height reduced by 20%",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"244",244,2024,"February",2,"pharah","damage","jump jet","cooldown increased from 10 to 14 secondsond",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"245",245,2024,"February",2,"pharah","damage","concussive blast","cooldown decreased from 9 to 7 secondsond",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"246",246,2024,"February",2,"pharah","damage","concussive blast","explosion now deals 30 damage to enemy targets",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"247",247,2024,"February",2,"pharah","damage","concussive blast","explosion radius reduced from 8 to 6 meters",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"248",248,2024,"February",2,"pharah","damage","concussive blast","knockback reduced by 10%",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"249",249,2024,"February",2,"pharah","damage","barrage","now instantly refills hover jets fuel",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"250",250,2024,"February",2,"pharah","damage","hover jets","speed boost increased from 20% to 40%",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"251",251,2024,"February",2,"pharah","damage","hover jets","now requires landing to recharge fuel",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"252",252,2024,"February",2,"pharah","damage","hover jets","can now be activated without fuel to slow your descent",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"253",253,2024,"February",2,"pharah","damage","jet dash","ability added to game",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"254",254,2024,"February",2,"mei","damage","hit_points","health increased from 250 to 300",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"255",255,2024,"February",2,"junkrat","damage","hit_points","health increased from 200 to 250",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"256",256,2024,"February",2,"junkrat","damage","frag launcher","base projectile size reduced from 0.25 to 0.2 meters",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"257",257,2024,"February",2,"hanzo","damage","hit_points","health increased from 200 to 250",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"258",258,2024,"February",2,"hanzo","damage","storm arrows","damage increased from 65 to 75",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"259",259,2024,"February",2,"hanzo","damage","storm arrows","cooldown reduced from 10 to 8 secondsond",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"260",260,2024,"February",2,"genji","damage","hit_points","health increased from 200 to 250",0,1,44,749,0.0352846832397755,5,0.00714285714285714,0.4,0.6
+"261",261,2024,"February",2,"genji","damage","dragonblade","swing recovery decreased from 0.9 to 0.7 secondsond",0,1,44,749,0.0352846832397755,5,0.00714285714285714,0.4,0.6
+"262",262,2024,"February",2,"echo","damage","hit_points","health increased from 200 to 250",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"263",263,2024,"February",2,"echo","damage","focusing beam","width increased from 0.2 to 0.25 meters",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"264",264,2024,"February",2,"echo","damage","duplicate","maximum combined health value increased from 300 to 350",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"265",265,2024,"February",2,"cassidy","damage","hit_points","health increased from 225 to 275",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"266",266,2024,"February",2,"cassidy","damage","deadeye","initial damage rate increased from 130 to 150",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"267",267,2024,"February",2,"cassidy","damage","deadeye","damage rate increased from 260 to 300",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"268",268,2024,"February",2,"bastion","damage","hit_points","health increased from 200 to 250",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"269",269,2024,"February",2,"ashe","damage","hit_points","health increased from 200 to 250",0,1,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"270",270,2024,"February",2,"ashe","damage","b.o.b.","b.o.b.’s weapon damage increased from 14 to 17",0,1,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"271",271,2024,"February",2,"zarya","tank","hit_points","health increased from 100 to 175",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"272",272,2024,"February",2,"zarya","tank","particle cannon","primary fire beam width increased from 0.15 to 0.2 meters",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"273",273,2024,"February",2,"wrecking ball","tank","hit_points","armor increased from 100 to 175",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"274",274,2024,"February",2,"winston","tank","hit_points","health increased from 200 to 225",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"275",275,2024,"February",2,"winston","tank","hit_points","armor increased from 200 to 250.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"276",276,2024,"February",2,"winston","tank","tesla cannon","primary fire damage increased from 60 to 75 damage per secondsond.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"277",277,2024,"February",2,"winston","tank","primal rage","punch damage increased from 40 to 50.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"278",278,2024,"February",2,"sigma","tank","hit_points","shields increased from 200 to 275",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"279",279,2024,"February",2,"roadhog","tank","hit_points","health increased from 550 to 650.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"280",280,2024,"February",2,"reinhardt","tank","hit_points","health increased from 200 to 250.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"281",281,2024,"February",2,"reinhardt","tank","hit_points","armor increased from 250 to 275.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"282",282,2024,"February",2,"reinhardt","tank","rocket hammer","damage increased from 85 to 100.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"283",283,2024,"February",2,"reinhardt","tank","charge","wall impact damage increased from 225 to 275.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"284",284,2024,"February",2,"ramattra","tank","hit_points","health increased from 200 to 275.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"285",285,2024,"February",2,"orisa","tank","hit_points","armor increased from 275 to 350.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"286",286,2024,"February",2,"mauga","tank","hit_points","health increased from 300 to 400.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"287",287,2024,"February",2,"junker queen","tank","hit_points","health increased from 300 to 375.",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"288",288,2024,"February",2,"junker queen","tank","rampage","wound damage over time increased from 60 to 90",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"289",289,2024,"February",2,"doomfist","tank","hit_points","health increased from 300 to 375.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"290",290,2024,"February",2,"doomfist","tank","rocket punch","max impact damage increased from 50 to 75.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"291",291,2024,"February",2,"doomfist","tank","rocket punch","max wall slam damage increased from 30 to 40.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"292",292,2024,"February",2,"dva","tank","hit_points","pilot health increased from 150 to 175.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"293",293,2024,"February",2,"dva","tank","hit_points","mech armor increased from 300 to 375.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"294",294,2024,"February",2,"dva","tank","self-destruct","explosion maximum damage increased from 900 to 1000",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"295",295,2024,"February",2,"dva","tank","self-destruct","inner explosion radius (range for maximum damage before falloff begins) increased from 4 to 6 meters.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"296",296,2024,"February",2,"zenyatta","support","hit_points","base health decreased from 100 to 75.",1,0,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"297",297,2024,"February",2,"zenyatta","support","snap kick","knockback decreased 25%.",1,0,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"298",298,2024,"February",2,"mercy","support","caduceus blaster","base projectile size reduced from 0.25 to 0.2 meters. total projectile size is now 0.3 meters",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"299",299,2024,"February",2,"lucio","support","sonic amplifier","base projectile size reduced from 0.15 to 0.1 meters. total projectiles size is now 0.25 meters.",1,0,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"300",300,2024,"February",2,"illari","support","healing pylon","cooldown decreased from 8 to 6 secondsond.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"301",301,2024,"February",2,"illari","support","healing pylon","cooldown when destroyed by enemies decreased from 15 to 12 secondsond.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"302",302,2024,"February",2,"illari","support","captive sun","sunstruck explosion damage increased from 100 to 160.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"303",303,2024,"February",2,"illari","support","captive sun","sunstruck explosion now has damage falloff again, reducing damage by up to 25%.",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"304",304,2024,"February",2,"widowmaker","damage","widow's kiss","now uses the smaller 0.05 meter hitscan projectile size modifier. total projectile size is now 0.05 meters.",1,0,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"305",305,2024,"February",2,"widowmaker","damage","widow's kiss","scoped shot damage falloff min-max range increased from 40-60 to 50-70 meters.",0,1,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"306",306,2024,"February",2,"tracer","damage","pulse pistols","minimum falloff range reduced from 12 to 10.",1,0,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"307",307,2024,"February",2,"soldier: 76","damage","heavy pulse rifle","now uses the smaller 0.05 meter hitscan projectile size modifier. total projectile size is now 0.05 meters .",1,0,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"308",308,2024,"February",2,"junkrat","damage","concussion mine","cooldown decreased from 8 to 7 secondsond.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"309",309,2024,"February",2,"junkrat","damage","concussion mine","maximum damage increased from 110 to 120.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"310",310,2024,"February",2,"junkrat","damage","concussion mine","minimum damage increased from 20 to 55.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"311",311,2024,"February",2,"hanzo","damage","storm bow","base projectile sizes reduced from 0.1 to 0.075 meters. total projectile size is now 0.175 meters.",1,0,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"312",312,2024,"February",2,"zarya","tank","particle cannon","primary fire minimum damage increased from 85 to 95 damage per secondsond.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"313",313,2024,"February",2,"zarya","tank","particle cannon","primary fire maximum damage increased from 170 to 190 damage per secondsond.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"314",314,2024,"February",2,"roadhog","tank","take a breather","damage reduction increased from 40 to 50%.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"315",315,2024,"February",2,"dva","tank","light gun","base projectile size reduced from 0.25 to 0.2 meters. total projectile size is now 0.3 meters.",1,0,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"316",316,2024,"March",3,"lifeweaver","support","heal blossom","maximum heal amount increased from 70 to 80.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"317",317,2024,"March",3,"lifeweaver","support","heal blossom","maximum charge time increased from 1 to 1.15 secondsond.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"318",318,2024,"March",3,"illari","support","solar rifle","primary fire recovery time reduced from 0.3 to 0.2 secondsond.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"319",319,2024,"March",3,"illari","support","solar rifle","maximum charge time reduced from 0.7 to 0.65 secondsond.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"320",320,2024,"March",3,"brigitte","support","repair pack","cooldown reduced from 6 to 5 secondsond",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"321",321,2024,"March",3,"brigitte","support","rally","cost reduced 8%",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"322",322,2024,"March",3,"baptiste","support","immortality field","minimum health threshold decreased from 25% to 20%",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"323",323,2024,"March",3,"ana","support","biotic grenade","explosion damage and healing increased from 60 to 90",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"324",324,2024,"March",3,"torbjorn","damage","deploy turret","turret damage increased from 11 to 13.",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"325",325,2024,"March",3,"symmetra","damage","photon projector","primary fire damage per secondsond increased from 60 to 65, scaling with each stage. the new maximum damage per secondsond is 195.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"326",326,2024,"March",3,"symmetra","damage","sentry turret","health increased from 30 to 50.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"327",327,2024,"March",3,"symmetra","damage","sentry turret","damage per secondsondincreased from 25 to 30.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"328",328,2024,"March",3,"symmetra","damage","teleporter","health increased from 50 to 100.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"329",329,2024,"March",3,"symmetra","damage","teleporter","shields increased from 150 to 200.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"330",330,2024,"March",3,"sombra","damage","virus","impact damage increased from 10 to 25.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"331",331,2024,"March",3,"sombra","damage","emp","ultimate cost reduced by 8%.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"332",332,2024,"March",3,"reaper","damage","death blossom","damage per secondsondincreased from 170 to 185.",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"333",333,2024,"March",3,"reaper","damage","death blossom","ultimate cost decreased by 12%.",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"334",334,2024,"March",3,"mei","damage","endothermic blaster","ammo increased from 120 to 140.",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"335",335,2024,"March",3,"mei","damage","cryofreeze","heal per secondsondincreased from 50 to 62.5.",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"336",336,2024,"March",3,"roadhog","tank","chain hook","the enemy final position distance from roadhog after being pulled decreased from 4 to 3 meters.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"337",337,2024,"March",3,"roadhog","tank","pig pen","vertical knockback on activation decreased by 43%",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"338",338,2024,"March",3,"reinhardt","tank","hit_points","armor increased from 275 to 300.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"339",339,2024,"March",3,"reinhardt","tank","fire strike","damage increased from 100 to 120.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"340",340,2024,"March",3,"ramattra","tank","ravenous vortex","total damage increased from 45 to 70.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"341",341,2024,"March",3,"ramattra","tank","ravenous vortex","cooldown decreased from 12 to 11 secondsond.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"342",342,2024,"March",3,"orisa","tank","terra surge","charge rate for the first 2.5 secondsond increased by 25%.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"343",343,2024,"March",3,"mauga","tank","overrun","stomp damage increased from 45 to 60.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"344",344,2024,"March",3,"mauga","tank","cardiac overdrive","duration reduced from 5 to 4 secondsond.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"345",345,2024,"March",3,"mauga","tank","cardiac overdrive","cooldown reduced from 12 to 10 secondsond.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"346",346,2024,"March",3,"mauga","tank","cardiac overdrive","now fills his passive overhealth by 100.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"347",347,2024,"March",3,"doomfist","tank","meteor strike","minimum damage increased from 15 to 50.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"348",348,2024,"March",3,"symmetra","damage","photon projector","primary fire damage per secondsond decreased from 65 to 60, scaling with all levels. maximum damage per secondsondis 180.",1,0,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"349",349,2024,"March",3,"symmetra","damage","sentry turret","health decreased from 50 to 40.",1,0,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"350",350,2024,"March",3,"sombra","damage","emp","ultimate cost increased by 8%",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"351",351,2024,"March",3,"mauga","tank","hit_points","base health decreased from 400 to 375.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"352",352,2024,"March",3,"mauga","tank","cardiac overdrive","no longer fills overhealth on activation.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"353",353,2024,"March",3,"mauga","tank","cardiac overdrive","duration increased from 4 to 5 secondsond.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"354",354,2024,"March",3,"mauga","tank","cardiac overdrive","cooldown increased from 10 to 12 secondsond.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"355",355,2024,"April",4,"zenyatta","support","orb of destruction","ammo increased from 25 to 32.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"356",356,2024,"April",4,"zenyatta","support","orb of destruction","secondary fire charge time per projectile decreased from .52 to .47.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"357",357,2024,"April",4,"zenyatta","support","orb of destruction","secondary fire projectiles fire 33% faster.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"358",358,2024,"April",4,"zenyatta","support","orb of destruction","secondary fire damage decreased by 30%.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"359",359,2024,"April",4,"zenyatta","support","orb of destruction","you can now charge up to 8 orbs with secondary fire.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"360",360,2024,"April",4,"zenyatta","support","orb of destruction","zenyatta’s accelerates upward while charging secondary fire.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"361",361,2024,"April",4,"mercy","support","caduceus staff","damage boost from secondary fire removed.",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"362",362,2024,"April",4,"mercy","support","caduceus staff","secondary fire is now damage staff. (ability 2 on controller.)",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"363",363,2024,"April",4,"mercy","support","caduceus staff","damage staff fires caduceus blaster projectiles.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"364",364,2024,"April",4,"mercy","support","caduceus staff","projectiles have a smaller size.",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"365",365,2024,"April",4,"mercy","support","caduceus staff","size gets bigger during ult.",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"366",366,2024,"April",4,"mercy","support","caduceus staff","2 more damage.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"367",367,2024,"April",4,"mercy","support","caduceus staff","projectiles reload automatically while not firing.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"368",368,2024,"April",4,"mercy","support","caduceus staff","projectiles reload at twice the speed while healing or after 4 secondsond without firing.",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"369",369,2024,"April",4,"mercy","support","caduceus staff","can fire projectiles at a reduced firing speed if healing beam is active.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"370",370,2024,"April",4,"mercy","support","caduceus staff","healing beam can heal at a reduced rate if damage staff is active.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"371",371,2024,"April",4,"mercy","support","caduceus blaster","removed from game",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"372",372,2024,"April",4,"lucio","support","sonic amplifier","ammo increased from 20 to 30.",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"373",373,2024,"April",4,"lucio","support","sonic amplifier","recovery decreased from .14 secondsond per bullet to .125 secondsond per bullet.",1,0,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"374",374,2024,"April",4,"lucio","support","sonic amplifier","now shoots 3 bullets per volley during speed boost and 5 bullets per volley during healing boost.",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"375",375,2024,"April",4,"lucio","support","sound barrier","knocks up enemies the sound waves hit.",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"376",376,2024,"April",4,"lifeweaver","support","petal platform","now raises 20m (up from 8m).",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"377",377,2024,"April",4,"kiriko","support","protection suzu","now also grants allies a 10% damage boost, 10% healing boost, 50% movement speed boost, and 700% increased jump height.",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"378",378,2024,"April",4,"kiriko","support","protection suzu","increased duration from .65 to 1 secondsond.",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"379",379,2024,"April",4,"kiriko","support","vulpine agility","new passive",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"380",380,2024,"April",4,"kiriko","support","vulpine agility","kiriko can jump an extra time in the air",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"381",381,2024,"April",4,"illari","support","captive sun","after using captive sun, illari becomes solar installed. she moves faster and charges her solar rifle faster, her rifle always charges to full damage power.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"382",382,2024,"April",4,"illari","support","captive sun","movement speed bonus 1.2x.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"383",383,2024,"April",4,"illari","support","captive sun","attack charge time reduced by 40%.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"384",384,2024,"April",4,"illari","support","captive sun","healing recharge bonus 1.2x.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"385",385,2024,"April",4,"illari","support","solar powered","new passive.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"386",386,2024,"April",4,"illari","support","solar powered","illari is always solar installed when the sun is out.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"387",387,2024,"April",4,"brigitte","support","hit_points","armor increased from 50 to 150",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"388",388,2024,"April",4,"brigitte","support","shield barrier","health increased from 250 to 700.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"389",389,2024,"April",4,"brigitte","support","shield barrier","always uses bigger size",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"390",390,2024,"April",4,"brigitte","support","rally","resets your shield bash cooldown.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"391",391,2024,"April",4,"brigitte","support","raly","movement speed bonus increased from 1.15x to 1.3x",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"392",392,2024,"April",4,"baptiste","support","exo-boots","now launches you forward rather than upward.",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"393",393,2024,"April",4,"baptiste","support","amplification matrix","increases speed of projectiles shot through it by 200%.",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"394",394,2024,"April",4,"ana","support","sleep dart","slept enemies slowly rise while sleeping.",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"395",395,2024,"April",4,"ana","support","sleep dart","enemies take fall damage when they land",0,1,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"396",396,2024,"April",4,"widowmaker","damage","grappling hook","now has 3 charges.",0,1,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"397",397,2024,"April",4,"widowmaker","damage","grappling hook","getting a critical hit with widow’s kiss’s secondsondary fire replenishes one charge of the ability",0,1,41,749,0.032878909382518,7,0.01,0.285714285714286,0.714285714285714
+"398",398,2024,"April",4,"torbjorn","damage","deploy turret","the turret now sticks to walls, ceilings, and allies",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"399",399,2024,"April",4,"symmetra","damage","teleporter","only places exit teleporter.",1,0,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"400",400,2024,"April",4,"symmetra","damage","teleporter","any ally can use teleporter regardless of their location.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"401",401,2024,"April",4,"symmetra","damage","teleporter","teleporter duration decreased from 10 to 4 secondsond.",1,0,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"402",402,2024,"April",4,"sombra","damage","virus","killing an enemy infected with virus, it attempts to spread to a nearby enemy.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"403",403,2024,"April",4,"soldier: 76","damage","heavy pulse rifle","can now be used during sprint.",0,1,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"404",404,2024,"April",4,"soldier: 76","damage","heavy pulse rifle","using heavy pulse rifle while sprinting has a spread of 2",1,0,38,749,0.0304731355252606,8,0.0114285714285714,0.375,0.625
+"405",405,2024,"April",4,"sojourn","damage","disruptor shot","disruptor shot now pulls enemies in on deploy.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"406",406,2024,"April",4,"sojourn","damage","disruptor shot","you can deploy disruptor shot early by pressing e again",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"407",407,2024,"April",4,"reaper","damage","hellfire shotguns","primary fire now only shoots one shotgun.",1,0,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"408",408,2024,"April",4,"reaper","damage","hellfire shotguns","damage per bullet reduced from 5.4 to 2.8.",1,0,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"409",409,2024,"April",4,"reaper","damage","hellfire shotguns","ammo increased from 8 to 16.",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"410",410,2024,"April",4,"reaper","damage","hellfire shotguns","secondary fire now shoots the other shotgun",1,0,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"411",411,2024,"April",4,"pharah","damage","jet land","ability added to game",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"412",412,2024,"April",4,"mei","damage","avalanche launch","ability added to game",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"413",413,2024,"April",4,"junkrat","damage","frag launcher","you can now detonate frag launcher projectiles with secondary fire.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"414",414,2024,"April",4,"hanzo","damage","storm arrows","number of ricochets increased from 1 to 3.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"415",415,2024,"April",4,"hanzo","damage","storm arrows","number of projectiles per shot increased from 1 to 5.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"416",416,2024,"April",4,"hanzo","damage","storm arrows","damage of each projectile decreased by 78%",1,0,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"417",417,2024,"April",4,"genji","damage","deflect","press primary fire with perfect timing to critically deflect a projectile.",0,1,44,749,0.0352846832397755,5,0.00714285714285714,0.4,0.6
+"418",418,2024,"April",4,"echo","damage","focusing beam","targets within 8 meters of echo take damage as if they’re under half health.",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"419",419,2024,"April",4,"echo","damage","duplicate","can no longer choose who you duplicate.",1,0,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"420",420,2024,"April",4,"echo","damage","duplicate","can now duplicate allies.",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"421",421,2024,"April",4,"echo","damage","duplicate","duplicate’s health no longer capped at 300 health.",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"422",422,2024,"April",4,"echo","damage","duplicate","duplicate now gains an extra 100 shields.",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"423",423,2024,"April",4,"echo","damage","duplicate","bonus ult charge gain rate increased from 4 to 6.5",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"424",424,2024,"April",4,"cassidy","damage","wanted!","ability added to game",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"425",425,2024,"April",4,"bastion","damage","configuration: assault","movement speed penalty has been removed.",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"426",426,2024,"April",4,"bastion","damage","configuration: assault","damage per bullet decreased from 12 to 5.",1,0,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"427",427,2024,"April",4,"bastion","damage","configuration: assault","now deals 1.5x damage for critical hits.",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"428",428,2024,"April",4,"bastion","damage","reconfigure","grants a movement speed bonus of 35%",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"429",429,2024,"April",4,"bastion","damage","reconfigure","configuration: sentry now fires shotgun blasts",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"430",430,2024,"April",4,"ashe","damage","f.r.e.d.","ability added to game",0,1,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"431",431,2024,"April",4,"zarya","tank","particle barrier","increases the size of the bubbled target by 1.75x",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"432",432,2024,"April",4,"zarya","tank","projected barrier","increases the size of the bubbled target by 1.75x",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"433",433,2024,"April",4,"wrecking ball","tank","quad cannons","deals increased damage as you continue to walk sideways.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"434",434,2024,"April",4,"wrecking ball","tank","directional_input","wrecking ball’s sideways movement speed increased by 55%.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"435",435,2024,"April",4,"winston","tank","tesla cannon","secondary fire now chains between enemies.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"436",436,2024,"April",4,"winston","tank","primal rage","punches also cause lightning to chain between enemies.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"437",437,2024,"April",4,"sigma","tank","accretion","projectile speed decreased from 37 to 30.",1,0,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"438",438,2024,"April",4,"sigma","tank","accretion","projectile gravity decreased from 18 to 2.",1,0,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"439",439,2024,"April",4,"sigma","tank","accretion","pressing the ability button while accretion is active will cause the rock to crash into the ground. when crashed, it will deal 50 damage in a 4-meter radius and stun anyone damaged",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"440",440,2024,"April",4,"roadhog","tank","pig pen","projectile speed increased from 26 to 80.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"441",441,2024,"April",4,"roadhog","tank","pig pen","projectile damage increased from 0 to 40",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"442",442,2024,"April",4,"reinhardt","tank","barrier field","you can now press primary fire to reflects projectiles",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"443",443,2024,"April",4,"reinhardt","tank","barrier field","health decreases by 20% every secondsondwhile reflecting.",1,0,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"444",444,2024,"April",4,"reinhardt","tank","barrier field","barrier size decreased to 50% while reflecting",1,0,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"445",445,2024,"April",4,"ramattra","tank","hit_points","base armor increased from 100 to 225.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"446",446,2024,"April",4,"ramattra","tank","annihilation","no longer pauses its duration while dealing damage.",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"447",447,2024,"April",4,"ramattra","tank","annihilation","movement speed increased by 20%.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"448",448,2024,"April",4,"ramattra","tank","annihilation","duration increased from 3 to 5 secondsond.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"449",449,2024,"April",4,"ramattra","tank","annihilation","damage per second decreased from 30 to 20.",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"450",450,2024,"April",4,"ramattra","tank","annihilation","radius decreased from 12 to 9 meters",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"451",451,2024,"April",4,"ramattra","tank","nemesis form","fully heals ramattra on use.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"452",452,2024,"April",4,"ramattra","tank","nemesis form","pummel damage increased from 60 to 75.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"453",453,2024,"April",4,"ramattra","tank","nemesis form","pummel range has been increased from 10 to 15.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"454",454,2024,"April",4,"orisa","tank","energy javelin","ricochets once.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"455",455,2024,"April",4,"orisa","tank","energy javelin","explodes when it sticks.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"456",456,2024,"April",4,"mauga","tank","hit_points","health decreased from 350 to 25.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"457",457,2024,"April",4,"mauga","tank","incendiary chaingun","hitting enemies who are ‘on fire’ will ignite them.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"458",458,2024,"April",4,"junker queen","tank","jagged blade","pressing secondary fire while the ability is active now magnetizes junker queen to gracie.",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"459",459,2024,"April",4,"junker queen","tank","jagged blade","cooldown now starts when blade starts returning to junker queen.",1,0,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"460",460,2024,"April",4,"junker queen","tank","jagged blade","cooldown decreased from 6 to 4 secondsond",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"461",461,2024,"April",4,"doomfist","tank","power block","power block and meteor strike also empower your next quick melee.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"462",462,2024,"April",4,"doomfist","tank","meteor strike","power block and meteor strike also empower your next quick melee.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"463",463,2024,"April",4,"doomfist","tank","power block","movement speed modifier increased from .65x to 1.25x.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"464",464,2024,"April",4,"dva","tank","boosters","can now move backwards.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"465",465,2024,"April",4,"dva","tank","boosters","can now be canceled with crouch.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"466",466,2024,"April",4,"dva","tank","boosters","canceling the ability with crouch in the first .4 secondsond reduces the cooldown to 1.5 secondsond",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"467",467,2024,"April",4,"dva","tank","self-destruct","knockback increased by 900%.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"468",468,2024,"April",4,"moira","support","biotic grasp","damage per secondsonddecreased from 65 to 60.",1,0,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"469",469,2024,"April",4,"moira","support","coalescence","self-heal per secondsondincreased from 50 to 55.",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"470",470,2024,"April",4,"lifeweaver","support","rejuvenating  dash","heal increased from 50 to 60.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"471",471,2024,"April",4,"lifeweaver","support","tree of life","pulse healing increased from 75 to 90.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"472",472,2024,"April",4,"lucio","support","sonic amplifier","damage per projectile decreased from 20 to 18.",1,0,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"473",473,2024,"April",4,"lucio","support","soundwave","damage increased from 35 to 45.",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"474",474,2024,"April",4,"illari","support","solar rifle","primary fire recovery increased from 0.2 to 0.25 secondsond.",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"475",475,2024,"April",4,"illari","support","solar rifle","secondary fire heal-per-secondsondincreased from 105 to 115",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"476",476,2024,"April",4,"venture","damage","drill dash","impact damage decreased from 60 to 40.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"477",477,2024,"April",4,"venture","damage","drill dash","damage over time increased from 40 to 60",0,1,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"478",478,2024,"April",4,"venture","damage","clobber","impact damage decreased from 40 to 30.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"479",479,2024,"April",4,"venture","damage","clobber","damage over time increased from 30 to 40",0,1,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"480",480,2024,"April",4,"venture","damage","tectonic shock","vertical knockback decreased by 30%.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"481",481,2024,"April",4,"tracer","damage","recall","cooldown increased from 12 to 13 secondsond.",1,0,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"482",482,2024,"April",4,"tracer","damage","pulse bomb","base projectile size decreased from 0.2 to 0.1 meters. the total projectile size is now 0.25 meters",0,1,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"483",483,2024,"April",4,"sombra","damage","virus","total damage over time decreased from 100 to 90.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"484",484,2024,"April",4,"wrecking ball","tank","grappling claw","now has a one secondsondcooldown if wrecking ball never reaches ramming speed before canceling the ability",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"485",485,2024,"April",4,"wrecking ball","tank","grappling claw","hold the jump input while the grappling claw is attached to terrain to retract it, pulling yourself towards the anchor point",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"486",486,2024,"April",4,"wrecking ball","tank","grappling claw","the maximum duration timer no longer triggers unless he reaches ramming speed",1,0,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"487",487,2024,"April",4,"wrecking ball","tank","adaptive shield","can now be reactivated to redistribute up to 300 overhealth to nearby allies, capping at 75 per person.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"488",488,2024,"April",4,"wrecking ball","tank","adaptive shield","enemy and ally detection radius increased from 10 to 13 meters.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"489",489,2024,"April",4,"wrecking ball","tank","minefield","health increased from 50 to 60.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"490",490,2024,"April",4,"sigma","tank","experimental barrier","movement speed increased from 16.5 to 20 meters per secondsond.",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"491",491,2024,"April",4,"reinhardt","tank","earthshatter","knockdown duration increased from 2.75 to 3 secondsond.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"492",492,2024,"April",4,"reinhardt","tank","earthshatter","shockwave range increased from 20 to 25 meters",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"493",493,2024,"April",4,"junker queen","tank","carnage","impact damage increased from 90 to 105.",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"494",494,2024,"April",4,"doomfist","tank","rocket punch","the empowered punch is no longer consumed when the windup is canceled by using seismic slam or power block.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"495",495,2024,"April",4,"venture","damage","smart excavator","maximum explosion damage decreased from 45 to 40.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"496",496,2024,"April",4,"venture","damage","drill dash","initial impact damage decreased from 40 to 30.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"497",497,2024,"April",4,"venture","damage","tectonic shock","ultimate charge cost increased by 10%.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"498",498,2024,"April",4,"orisa","tank","fortify","duration reduced from 4.5 to 3.5 secondsond.",1,0,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"499",499,2024,"April",4,"orisa","tank","fortify","orisa now moves 20% slower while fortified.",1,0,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"500",500,2024,"April",4,"orisa","tank","javelin spin","cooldown increased from 7 to 9 secondsond.",1,0,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"501",501,2024,"May",5,"brigitte","support","rally","now resets shield bash cooldown upon activation.",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"502",502,2024,"May",5,"hanzo","damage","dragonstrike","speed increased from 12 to 15 meters per secondsond.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"503",503,2024,"May",5,"echo","damage","duplicate","ultimate gain multiplier while transformed increased from 4 to 4.5.",0,1,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"504",504,2024,"May",5,"junkrat","damage","frag launcher","impact damage increased from 40 to 45 (total damage increased from 120 to 125).",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"505",505,2024,"May",5,"zarya","tank","graviton surge","radius increased from 6 to 7 meters.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"506",506,2024,"May",5,"zarya","tank","graviton surge","duration increased from 3.5 to 4 secondsond",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"507",507,2024,"May",5,"wrecking ball","tank","grappling claw","impact damage increased from 50 to 60.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"508",508,2024,"May",5,"wrecking ball","tank","piledriver","movement lockout duration for enemies increased from 0.5 to 0.75 secondsond",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"509",509,2024,"May",5,"wrecking ball","tank","minefield","damage increased from 130 to 165.",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"510",510,2024,"May",5,"wrecking ball","tank","minefield","explosion knockback increased from 5 to 10",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"511",511,2024,"May",5,"sigma","tank","gravitic flux","no longer requires line of sight to the center of the effect.",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"512",512,2024,"May",5,"junker queen","tank","commanding shout","can now be activated while using other abilities.",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"513",513,2024,"May",5,"junker queen","tank","commanding shout","cooldown reduced from 14 to 12 secondsond",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"514",514,2024,"May",5,"venture","damage","drill dash","cooldown now begins when the ability is used.",0,1,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"515",515,2024,"May",5,"venture","damage","drill dash","cooldown is no longer decreased by half when used underground.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"516",516,2024,"May",5,"venture","damage","drill dash","cooldown is accelerated by 90% when underground",0,1,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"517",517,2024,"May",5,"venture","damage","burrow","added a 0.2-secondsondgrace period after the burrow timer runs out where emerging can still be charged",0,1,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"518",518,2024,"May",5,"sigma","tank","gravitic flux","gravitic flux now requires line-of-sight to lift targets again.",1,0,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"519",519,2024,"May",5,"roadhog","tank","take a breather","resource regeneration rate reduced from 10 to 8 per secondsond.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"520",520,2024,"May",5,"roadhog","tank","take a breather","maximum healing reduced from 450 to 400.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"521",521,2024,"May",5,"roadhog","tank","take a breather","cooldown reduced from 1.5 to 1.25 secondsond",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"522",522,2024,"May",5,"roadhog","tank","whole hog","knockback increased from 14 to 16.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"523",523,2024,"May",5,"roadhog","tank","whole hog","damage per pellet reduced from 7 to 6",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"524",524,2024,"June",6,"kiriko","support","swift step","cooldown increased from 7 to 8 secondsond.",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"525",525,2024,"June",6,"kiriko","support","protection suzu","no longer cleanses hard knockdown stuns.",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"526",526,2024,"June",6,"illari","support","outburst","damage increased from 10 to 25.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"527",527,2024,"June",6,"illari","support","healing pylon","healing per projectile increased from 30 to 40.",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"528",528,2024,"June",6,"illari","support","healing pylon","pylon healing is now only half as effective when targeting illari.",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"529",529,2024,"June",6,"illari","support","healing pylon","max health increased from 100 to 125",0,1,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"530",530,2024,"June",6,"symmetra","damage","hit_points","base health increased from 100 to 125 (total health increased from 250 to 275).",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"531",531,2024,"June",6,"symmetra","damage","photon projector","primary fire charge rate increased 25%.",0,1,34,749,0.0272654370489174,20,0.0285714285714286,0.25,0.75
+"532",532,2024,"June",6,"sojourn","damage","railgun","secondary fire damage scaling reduced from 30-130 damage down to 1-100 damage.",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"533",533,2024,"June",6,"sojourn","damage","railgun","secondary fire projectile no longer requires overclock to pierce enemy players.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"534",534,2024,"June",6,"sojourn","damage","railgun","primary fire shots per secondsondincreased from 14 to 16",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"535",535,2024,"June",6,"sojourn","damage","overclock","energy charge rate increased from 100 to 120 per secondsond.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"536",536,2024,"June",6,"reaper","damage","hellfire shotguns","weapon spread reduced from 6.5 to 6 degrees.",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"537",537,2024,"June",6,"reaper","damage","shadow step","cast time reduced from 1.5 to 1.2 secondsond.",0,1,42,749,0.0336808340016038,9,0.0128571428571429,0.333333333333333,0.666666666666667
+"538",538,2024,"June",6,"mei","damage","endothermic blaster","secondary fire base projectile size reduced from 0.15 to 0.12 meters.",1,0,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"539",539,2024,"June",6,"mei","damage","endothermic blaster","secondary fire damage increased from 75 to 85",0,1,35,749,0.0280673616680032,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"540",540,2024,"June",6,"cassidy","damage","peacekeeper","secondary fire ""fan the hammer"" damage reduced from 50 to 45.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"541",541,2024,"June",6,"cassidy","damage","combat roll","damage reduction reduced from 75 to 50%.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"542",542,2024,"June",6,"cassidy","damage","flashbang","movement speed reduction increased from 30% to 50%.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"543",543,2024,"June",6,"cassidy","damage","flashbang","hinder now prevents crouching movement.",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"544",544,2024,"June",6,"cassidy","damage","flashbang","45 explosive damage.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"545",545,2024,"June",6,"cassidy","damage","deadeye","movement speed penalty now scales down over time, from 70% to 35%.",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"546",546,2024,"June",6,"cassidy","damage","deadeye","damage reduction now scales down over time, from 40% to 0%",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"547",547,2024,"June",6,"roadhog","tank","take a breather","damage reduction reduced from 50 to 40%.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"548",548,2024,"June",6,"roadhog","tank","hit_points","base health reduced from 650 to 600.",1,0,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"549",549,2024,"June",6,"orisa","tank","javelin spin","cooldown reduced from 9 to 8 secondsond.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"550",550,2024,"June",6,"junker queen","tank","jagged blade","now pulls tanks fruther",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"551",551,2024,"June",6,"junker queen","tank","rampage","startup time reduced from 0.75 to 0.5 secondsond",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"552",552,2024,"June",6,"dva","tank","fusion cannons","weapon spread reduced from 3.75 to 3.375 degrees.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"553",553,2024,"June",6,"dva","tank","boosters","impact damage increased from 15 to 25.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"554",554,2024,"July",7,"zenyatta","support","trascendence","ultimate cost decreased 10%.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"555",555,2024,"July",7,"illari","support","healing pylon","allies no longer see the ""destroyed"" ui when healing pylon breaks.",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"556",556,2024,"July",7,"ana","support","sleep dart","duration of effect on tank heroes decreased from 3.5 to 3 secondsond.",1,0,38,749,0.0304731355252606,10,0.0142857142857143,0.4,0.6
+"557",557,2024,"July",7,"pharah","damage","concussive blast","explosion damage reduced from 30 to 0.",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"558",558,2024,"July",7,"pharah","damage","concussive blast","explosion knockback radius increased from 6 to 8 meters.",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"559",559,2024,"July",7,"pharah","damage","concussive blast","knockback increased by 11%",0,1,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"560",560,2024,"July",7,"cassidy","damage","peacekeeper","primary fire falloff range rescaled from 25-35 meters to 20-30 meters.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"561",561,2024,"July",7,"ashe","damage","b.o.b.","b.o.b. now gains the tank role passive ability.",0,1,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"562",562,2024,"July",7,"zarya","tank","particle barrier","health increased from 200 to 225.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"563",563,2024,"July",7,"zarya","tank","particle barrier","duration increased from 2 to 2.5 secondsond",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"564",564,2024,"July",7,"zarya","tank","projected barrier","health increased from 200 to 225.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"565",565,2024,"July",7,"zarya","tank","projected barrier","duration increased from 2 to 2.5 secondsond",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"566",566,2024,"July",7,"wrecking ball","tank","quad cannons","automatic reload time while transformed reduced from 2 to 1.6 secondsond",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"567",567,2024,"July",7,"wrecking ball","tank","adaptive shield","allied overhealth transfer ratio increased by 50% (use up to 50 overhealth per target to grant allies up to 75 hp).",0,1,29,749,0.0232558139534884,18,0.0257142857142857,0.166666666666667,0.833333333333333
+"568",568,2024,"July",7,"winston","tank","tesla cannon","secondary fire charge time reduced from 1 secondsondto 0.85 secondsond.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"569",569,2024,"July",7,"winston","tank","primal rage","maximum health gained increased from 500 to 700.",0,1,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"570",570,2024,"July",7,"sigma","tank","accretion","impact damage increased from 40 to 80 (120 damage total).",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"571",571,2024,"July",7,"roadhog","tank","pig pen","area damage after activating increased from 30 to 45 damage per secondsond.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"572",572,2024,"July",7,"roadhog","tank","pig pen","recovery time reduced from 0.55 to 0.4 secondsond.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"573",573,2024,"July",7,"roadhog","tank","pig pen","cooldown now begins immediately when used instead of after a short delay",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"574",574,2024,"July",7,"reinhardt","tank","barrier field","maximum health increased from 1400 to 1600.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"575",575,2024,"July",7,"reinhardt","tank","barrier field","barrier regeneration rate increased from 140 to 160 health per secondsond",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"576",576,2024,"July",7,"reinhardt","tank","charge","wall impact damage increased from 275 to 300.",0,1,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"577",577,2024,"July",7,"ramattra","tank","nemesis form","bonus armor increased from 225 to 300.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"578",578,2024,"July",7,"ramattra","tank","pummel","pummel damage increased from 60 to 65.",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"579",579,2024,"July",7,"orisa","tank","fortify","duration increased from 3.5 to 4 secondsond",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"580",580,2024,"July",7,"mauga","tank","overrun","knockback damage increased from 25 to 30",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"581",581,2024,"July",7,"mauga","tank","overrun","stomp damage increased from 60 to 75",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"582",582,2024,"July",7,"mauga","tank","cardiac overdrive","duration reduced from 5 to 3 secondsond.",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"583",583,2024,"July",7,"mauga","tank","cardiac overdrive","lifesteal increased from 60 to 100%.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"584",584,2024,"July",7,"mauga","tank","cardiac overdrive","damage reduction increased from 30 to 40%.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"585",585,2024,"July",7,"mauga","tank","cardiac overdrive","allies now receive only half of the lifesteal and damage reduction effect value",1,0,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
+"586",586,2024,"July",7,"junker queen","tank","commanding shout","overhealth increased from 150 to 175 hp",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"587",587,2024,"July",7,"junker queen","tank","adrenaline rush","wound damage self-healing multiplier increased from 2 to 2.5x",0,1,18,749,0.0144346431435445,18,0.0257142857142857,0.111111111111111,0.888888888888889
+"588",588,2024,"July",7,"doomfist","tank","the best defense...'","overhealth gained per target increased from 35 to 40 hp.",0,1,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"589",589,2024,"July",7,"doomfist","tank","the best defense...'","delay before overhealth begins to drain increased from 1 to 3 secondsond.",1,0,31,749,0.02485966319166,17,0.0242857142857143,0.411764705882353,0.588235294117647
+"590",590,2024,"July",7,"dva","tank","defense matrix","maximum duration increased from 3 to 3.5 secondsond.",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"591",591,2024,"July",7,"dva","tank","micro missiles","explosion damage increased from 4 to 5.5 damage (from 126 to 153 max damage with direct impacts).",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"592",592,2024,"July",7,"lucio","support","sonic amplifier","knockback reduced by 10%",1,0,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"593",593,2024,"July",7,"illari","support","healing pylon","cooldown increased from 12 to 14 secondsond",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"594",594,2024,"July",7,"illari","support","captive sun","ultimate cost increased 12%",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"595",595,2024,"July",7,"pharah","damage","hit_points","base health reduced from 250 to 225",1,0,35,749,0.0280673616680032,22,0.0314285714285714,0.318181818181818,0.681818181818182
+"596",596,2024,"July",7,"zarya","tank","particle barrier","shared cooldown increased from 10 to 11 secondsond.",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"597",597,2024,"July",7,"zarya","tank","particle barrier","duration reduced from 2.5 to 2.25 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"598",598,2024,"July",7,"zarya","tank","projected barrier","shared cooldown increased from 10 to 11 secondsond.",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"599",599,2024,"July",7,"zarya","tank","projected barrier","duration reduced from 2.5 to 2.25 secondsond",1,0,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"600",600,2024,"July",7,"ramattra","tank","nemesis form","cooldown increased from 7 to 8 secondsond.",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"601",601,2024,"July",7,"ramattra","tank","nemesis form","base armor reduced from 100 to 75.",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"602",602,2024,"July",7,"ramattra","tank","nemesis form","base health reduced from 275 to 250",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"603",603,2024,"August",8,"lucio","support","sonic amplifier","primary fire damage increased from 18 to 22.",0,1,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"604",604,2024,"August",8,"lucio","support","hit_points","base health reduced from 250 to 225.",1,0,38,749,0.0304731355252606,14,0.02,0.357142857142857,0.642857142857143
+"605",605,2024,"August",8,"moira","support","hit_points","base health reduced from 250 to 225.",1,0,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"606",606,2024,"August",8,"moira","support","biotic grasp","secondary fire damage increased from 60 to 65 damage per secondsond.",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"607",607,2024,"August",8,"mercy","support","hit_points","base health reduced from 250 to 225.",1,0,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"608",608,2024,"August",8,"mercy","support","caduceus staff","primary fire healing increased from 55 to 60 health per secondsond.",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"609",609,2024,"August",8,"mercy","support","caduceus staff","secondary fire damage boost increased from 25% to 30%",0,1,44,749,0.0352846832397755,19,0.0271428571428571,0.421052631578947,0.578947368421053
+"610",610,2024,"August",8,"lifeweaver","support","healing blossom","healing progress can now charge passively at a reduced rate.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"611",611,2024,"August",8,"lifeweaver","support","healing blossom","no longer reduces movement speed when holding a full charge",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"612",612,2024,"August",8,"lifeweaver","support","petal platform","duration only counts down while the platform is raised.",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"613",613,2024,"August",8,"lifeweaver","support","petal platform","platform now resets if no one is standing on it for 2 secondsond.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"614",614,2024,"August",8,"lifeweaver","support","petal platform","duration increased from 10 to 12 secondsond.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"615",615,2024,"August",8,"lifeweaver","support","petal platform","health reduced from 400 to 300",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"616",616,2024,"August",8,"lifeweaver","support","rejuvenating  dash","healing reduced from 60 to 45.",1,0,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"617",617,2024,"August",8,"kiriko","support","kunai","critical multiplier reduced from 2.5 to 2x.",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"618",618,2024,"August",8,"kiriko","support","kunai","damage increased from 45 to 60.",0,1,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"619",619,2024,"August",8,"kiriko","support","kunai","recovery time increased from 0.5 to 0.55 secondsond",1,0,25,749,0.0200481154771451,21,0.03,0.476190476190476,0.523809523809524
+"620",620,2024,"August",8,"juno","support","hit_points","base health reduced from 250 to 225.",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"621",621,2024,"August",8,"juno","support","mediblaster","burst projectile volley rate of fire reduced from 34 to 28 shots per secondsond.",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"622",622,2024,"August",8,"juno","support","pulsar torpedoes","damage and healing impact increased from 75 to 85.",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"623",623,2024,"August",8,"juno","support","pulsar torpedoes","heal-over-time reduced from 60 to 50 healt",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"624",624,2024,"August",8,"juno","support","hyper ring","deploy range increased by 3.5 meters.",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"625",625,2024,"August",8,"juno","support","hyper ring","cooldown reduced from 16 to 14 secondsond",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"626",626,2024,"August",8,"juno","support","orbital ray","beam travel speed increased from 1.9 to 2.25 meters per secondsond.",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"627",627,2024,"August",8,"illari","support","solar rifle","maximum ammo reduced from 16 to 14",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"628",628,2024,"August",8,"illari","support","captive sun","projectile environment collision size reduced from 0.15 to 0 meters.",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"629",629,2024,"August",8,"torbjorn","damage","hit_points","base health reduced from 250 to 225.",1,0,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"630",630,2024,"August",8,"torbjorn","damage","hit_points","base armor increased from 50 to 75",0,1,32,749,0.0256615878107458,10,0.0142857142857143,0.4,0.6
+"631",631,2024,"August",8,"sombra","damage","hit_points","base health reduced from 250 to 225.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"632",632,2024,"August",8,"sombra","damage","virus","impact damage increased from 25 to 35.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"633",633,2024,"August",8,"sombra","damage","stealth","bonus movement speed increased from 45 to 60%.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"634",634,2024,"August",8,"sojourn","damage","railgun","primary fire weapon spread reduced from 2 to 1.6 degrees.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"635",635,2024,"August",8,"sojourn","damage","railgun","critical hits now grant 10 energy.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"636",636,2024,"August",8,"sojourn","damage","railgun","energy degeneration rate reduced from 33 to 15 per secondsondafter 7 secondsond.",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"637",637,2024,"August",8,"junkrat","damage","frag launcher","projectile size is now reduced by half after the secondsondricochet.",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"638",638,2024,"August",8,"junkrat","damage","frag launcher","projectiles preserve slightly more velocity on ricochet",0,1,32,749,0.0256615878107458,12,0.0171428571428571,0.333333333333333,0.666666666666667
+"639",639,2024,"August",8,"hanzo","damage","hit_points","base health reduced from 250 to 225.",1,0,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"640",640,2024,"August",8,"echo","damage","hit_points","base health reduced from 250 to 225.",1,0,26,749,0.020850040096231,13,0.0185714285714286,0.230769230769231,0.769230769230769
+"641",641,2024,"August",8,"zarya","tank","particle cannon","secondary fire minimum damage increased from 47 to 55.",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"642",642,2024,"August",8,"zarya","tank","particle cannon","secondary fire maximum damage increased from 95 to 110",0,1,35,749,0.0280673616680032,23,0.0328571428571429,0.391304347826087,0.608695652173913
+"643",643,2024,"August",8,"orisa","tank","energy javelin","impact damage increased from 60 to 80.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"644",644,2024,"August",8,"dva","tank","defense matrix","maximum duration reduced from 3.5 to 3 secondsond.",1,0,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"645",645,2024,"August",8,"juno","support","mediblaster","damage increased from 7 to 8.",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"646",646,2024,"August",8,"juno","support","glide boost","cooldown reduced from 8 to 6 secondsond",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"647",647,2024,"August",8,"illari","support","solar rifle","maximum damage reduced from 75 to 70",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"648",648,2024,"August",8,"illari","support","solar rifle","minimum damage reduced from 25 to 20",1,0,16,439,0.0128307939053729,38,0.0542857142857143,0.473684210526316,0.526315789473684
+"649",649,2024,"August",8,"tracer","damage","pulse pistols","damage reduced from 6 to 5.5",1,0,40,749,0.0320769847634322,7,0.01,0.571428571428571,0.428571428571429
+"650",650,2024,"September",9,"juno","support","mediblaster","fire rate increased from 14.3 to 15.5 (reverted to the 34 shots per secondsondduring the projectile volley).",0,1,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"651",651,2024,"September",9,"juno","support","mediblaster","damage reduced from 8 to 7.5.",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"652",652,2024,"September",9,"juno","support","mediblaster","healing reduced from 7 to 6.5",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"653",653,2024,"September",9,"sombra","damage","virus","damage over time reduced from 90 to 75.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"654",654,2024,"September",9,"ashe","damage","the viper","reload per bullet increased from 0.2 to 0.25 secondsond.",1,0,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"655",655,2024,"September",9,"ashe","damage","the viper","primary fire damage reduced from 40 to 35",1,0,31,749,0.02485966319166,7,0.01,0.285714285714286,0.714285714285714
+"656",656,2024,"September",9,"winston","tank","tesla cannon","damage per secondsondreduced from 75 to 70.",1,0,29,749,0.0232558139534884,12,0.0171428571428571,0.0833333333333333,0.916666666666667
+"657",657,2024,"September",9,"zenyatta","support","destruction orb","damage increased from 48 to 50.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"658",658,2024,"September",9,"zenyatta","support","orb of discord","cooldown per target reduced from 7 to 6 secondsond.",0,1,34,749,0.0272654370489174,18,0.0257142857142857,0.277777777777778,0.722222222222222
+"659",659,2024,"September",9,"lifeweaver","support","thorn volley","maximum ammo increased from 80 to 100.",0,1,17,558,0.0136327185244587,29,0.0414285714285714,0.275862068965517,0.724137931034483
+"660",660,2024,"September",9,"moira","support","coalescence","damage per secondsondincreased from 70 to 85.",0,1,30,749,0.0240577385725742,8,0.0114285714285714,0.25,0.75
+"661",661,2024,"September",9,"venture","damage","explorer's resolve","shield health gained per ability reduced from 40 to 30.",1,0,9,188,0.00721732157177225,13,0.0185714285714286,0.615384615384615,0.384615384615385
+"662",662,2024,"September",9,"hanzo","damage","storm bow","normal arrows are no longer affected by global projectile size increases.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"663",663,2024,"September",9,"hanzo","damage","storm bow","maximum damage increased from 120 to 125.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"664",664,2024,"September",9,"hanzo","damage","storm bow","time to fully charge increased from 0.72 to 0.87 secondsond",1,0,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"665",665,2024,"September",9,"cassidy","damage","flashbang","hinder duration reduced from 1.2 to 0.9 secondsond.",1,0,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"666",666,2024,"September",9,"cassidy","damage","flashbang","explosion damage increased from 45 to 75",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"667",667,2024,"September",9,"cassidy","damage","deadeye","ultimate cost reduced 10%.",0,1,35,749,0.0280673616680032,18,0.0257142857142857,0.555555555555556,0.444444444444444
+"668",668,2024,"September",9,"bastion","damage","configuration: assault","spread reduced from 2.2 to 2 degrees.",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"669",669,2024,"September",9,"bastion","damage","configuration: artillery","ultimate cost reduced 12%.",0,1,34,749,0.0272654370489174,11,0.0157142857142857,0.363636363636364,0.636363636363636
+"670",670,2024,"September",9,"sigma","tank","hyperspheres","impact damage reduced from 25 to 15.",1,0,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"671",671,2024,"September",9,"sigma","tank","hyperspheres","explosion damage increased from 30 to 40.",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"672",672,2024,"September",9,"sigma","tank","hyperspheres","no longer deals damage to self",0,1,27,749,0.0216519647153168,12,0.0171428571428571,0.416666666666667,0.583333333333333
+"673",673,2024,"September",9,"roadhog","tank","take a breather","resource regeneration rate increased from 8 to 10 per secondsond.",0,1,35,749,0.0280673616680032,38,0.0542857142857143,0.447368421052632,0.552631578947368
+"674",674,2024,"September",9,"orisa","tank","fortify","movement speed penalty reduced from 20% to 10%.",0,1,29,749,0.0232558139534884,19,0.0271428571428571,0.263157894736842,0.736842105263158
+"675",675,2024,"September",9,"dva","tank","hit_points","mech armor health reduced from 375 to 325",1,0,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"676",676,2024,"September",9,"dva","tank","hit_points","mech base health increased from 200 to 225",0,1,37,749,0.0296712109061748,21,0.03,0.238095238095238,0.761904761904762
+"677",677,2024,"October",10,"juno","support","mediblaster","falloff range reduced from 30-50 meters to 20-35 meters.",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"678",678,2024,"October",10,"juno","support","mediblaster","healing per projectile reduced from 6.5 to 6",1,0,5,55,0.00400962309542903,14,0.02,0.5,0.5
+"679",679,2024,"October",10,"brigitte","support","repair pack","cooldown increased from 5 to 5.5 secondsond.",1,0,32,749,0.0256615878107458,12,0.0171428571428571,0.166666666666667,0.833333333333333
+"680",680,2024,"October",10,"baptiste","support","biotic launcher","primary fire recoil reduced by 30%.",0,1,27,749,0.0216519647153168,10,0.0142857142857143,0.3,0.7
+"681",681,2024,"October",10,"sombra","damage","hack","no longer ends stealth but does reveal sombra.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"682",682,2024,"October",10,"sombra","damage","hack","hacked ability lockout effect duration reduced from 1.5 to 1.0 secondsond (emp duration unchanged).",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"683",683,2024,"October",10,"sombra","damage","hack","bob hacked stun duration reduced from 10 to 3 secondsond",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"684",684,2024,"October",10,"sombra","damage","translocator","cooldown increased from 5 to 7 secondsond.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"685",685,2024,"October",10,"sombra","damage","emp","ultimate cost increased 12%.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"686",686,2024,"October",10,"sombra","damage","stealth","no longer passive and now activates by using translocator.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"687",687,2024,"October",10,"sombra","damage","stealth","now has a 5 secondsondduration.",1,0,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"688",688,2024,"October",10,"sombra","damage","stealth","taking damage now reveals sombra for 1 secondsondinstead of ending stealth",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"689",689,2024,"October",10,"sombra","damage","opportunist","ability passive added to game",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"690",690,2024,"October",10,"sombra","damage","opportunist","increases sombra's weapon damage versus hacked targets by 20%.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"691",691,2024,"October",10,"sombra","damage","opportunist","see critically injured enemies through walls.",0,1,36,749,0.028869286287089,30,0.0428571428571429,0.466666666666667,0.533333333333333
+"692",692,2024,"October",10,"sojourn","damage","railgun","energy no longer stops degenerating at 25 energy.",1,0,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"693",693,2024,"October",10,"sojourn","damage","railgun","time before energy degeneration begins increased from 7 to 12 secondsond",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"694",694,2024,"October",10,"sojourn","damage","disruptor shot","damage per secondsondincreased from 60 to 80",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"695",695,2024,"October",10,"sojourn","damage","disruptor shot","now generates 25% of damage done to enemy players as railgun energy",0,1,21,749,0.0168404170008019,24,0.0342857142857143,0.333333333333333,0.666666666666667
+"696",696,2024,"October",10,"hanzo","damage","hit_points","base health increased from 225 to 250.",0,1,36,749,0.028869286287089,14,0.02,0.285714285714286,0.714285714285714
+"697",697,2024,"October",10,"reinhardt","tank","barrier field","barrier field health reduced from 1600 to 1500.",1,0,40,749,0.0320769847634322,16,0.0228571428571429,0.1875,0.8125
+"698",698,2024,"October",10,"ramattra","tank","pummel","no longer pierces barriers.",1,0,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"699",699,2024,"October",10,"ramattra","tank","pummel","now deals 2.5x more damage to barriers",0,1,18,686,0.0144346431435445,28,0.04,0.285714285714286,0.714285714285714
+"700",700,2024,"October",10,"mauga","tank","incendiary chaingun","ignite damage over time duration increased from 3 to 4 secondsond.",0,1,12,321,0.00962309542902967,43,0.0614285714285714,0.441860465116279,0.558139534883721
