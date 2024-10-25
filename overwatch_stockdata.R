@@ -13,6 +13,8 @@ msft = read.csv("Datasets/Microsoft_MSFT_StockPrice.csv")
 #stock market data for Activision Blizzard from 2020 until acquisition
 atvi = read_csv("Datasets/ActivisionBlizzard_ATVI_StockPrice.csv")
 
+# ow_hero_data = read.csv("Datasets/OverwatchHeroData_clean.csv) 
+
 # Data cleaning
 msft$Vol. = gsub('M', "", msft$Vol.)
 msft$Change.. = gsub('%', "", msft$Change..)
