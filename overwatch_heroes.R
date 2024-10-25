@@ -12,7 +12,7 @@ library(stringr)
 ow_data = read_csv("Datasets/Overwatch2_HeroPatches_raw - Sheet1.csv")
 
 # Exporting dataset
-#write.csv(ow_data, file = "C:/Users/natha/OneDrive/Documents/Data Clean/OverwatchHeroData_inProgress.csv")
+#write.csv(ow_data, file = "Datasets/OverwatchHeroData_clean.csv")
 
 # Data cleaning 
 
