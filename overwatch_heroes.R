@@ -6,7 +6,7 @@ library(readxl)
 library(knitr)
 library(stringr)
 
-# LAST UPDATED 21 OCTOBER 2024 #
+# LAST UPDATED 25 OCTOBER 2024 #
 
 # Import dataset
 ow_data = read.csv("~/Data Raw/Overwatch2_HeroPatches_raw - Sheet1.csv")
@@ -15,6 +15,9 @@ ow_data = read.csv("~/Data Raw/Overwatch2_HeroPatches_raw - Sheet1.csv")
 #write.csv(ow_data, file = "C:/Users/natha/OneDrive/Documents/Data Clean/OverwatchHeroData_inProgress.csv")
 
 # Data cleaning 
+
+n_days = 753
+
 ow_data = ow_data %>% mutate(id = 1:nrow(ow_data), .before = year) %>% mutate(month_num = match(month, month.name), .after = month) %>% # Adding new column with 
   mutate(ow_data$`ow_data$skins == as.numeric(ow_data$skins)`) %>%                     # month's numbers, i.e. "January" -> 1, etc.
   mutate(change = gsub("sec", "seconds", ow_data$change)) %>%  # undoing abbreviation 
@@ -66,51 +69,51 @@ ow_data = ow_data %>% mutate(id = 1:nrow(ow_data), .before = year) %>% mutate(mo
     TRUE ~ skins
   )) %>% 
   mutate(days_since_release = case_when(
-    hero == 'ana' ~ 749,
-    hero == 'ashe' ~ 749,
-    hero == 'baptiste' ~ 749,
-    hero == 'bastion' ~ 749,
-    hero == 'brigitte' ~ 749, 
-    hero == 'cassidy' ~ 749,
-    hero == 'dva' ~ 749, 
-    hero == 'doomfist' ~ 749, 
-    hero == 'echo' ~ 749,
-    hero == 'genji' ~ 749,
-    hero == 'hanzo' ~ 749,
+    hero == 'ana' ~ n_days,
+    hero == 'ashe' ~ n_days,
+    hero == 'baptiste' ~ n_days,
+    hero == 'bastion' ~ n_days,
+    hero == 'brigitte' ~ n_days, 
+    hero == 'cassidy' ~ n_days,
+    hero == 'dva' ~ n_days, 
+    hero == 'doomfist' ~ n_days, 
+    hero == 'echo' ~ n_days,
+    hero == 'genji' ~ n_days,
+    hero == 'hanzo' ~ n_days,
     hero == 'illari' ~ 439,
-    hero == 'junker queen' ~ 749,
-    hero == 'junkrat' ~ 749,
+    hero == 'junker queen' ~ n_days,
+    hero == 'junkrat' ~ n_days,
     hero == 'juno' ~ 55,
-    hero == 'kiriko' ~ 749,
+    hero == 'kiriko' ~ n_days,
     hero == 'lifeweaver' ~ 558,
-    hero == 'lucio' ~ 749,
+    hero == 'lucio' ~ n_days,
     hero == 'mauga' ~ 321,
-    hero == 'mei' ~ 749,
-    hero == 'mercy' ~ 749,
-    hero == 'moira' ~ 749,
-    hero == 'orisa' ~ 749,
-    hero == 'pharah' ~ 749, 
+    hero == 'mei' ~ n_days,
+    hero == 'mercy' ~ n_days,
+    hero == 'moira' ~ n_days,
+    hero == 'orisa' ~ n_days,
+    hero == 'pharah' ~ n_days, 
     hero == 'ramattra' ~ 686,
-    hero == 'reaper' ~ 749,
-    hero == 'reinhardt' ~ 749,
-    hero == 'roadhog' ~ 749,
-    hero == 'sigma' ~ 749,
-    hero == 'sojourn' ~ 749,
-    hero == 'soldier: 76' ~ 749,
-    hero == 'sombra' ~ 749,
-    hero == 'symmetra' ~ 749,
-    hero == 'torbjorn' ~ 749,
-    hero == 'tracer' ~ 749,
+    hero == 'reaper' ~ n_days,
+    hero == 'reinhardt' ~ n_days,
+    hero == 'roadhog' ~ n_days,
+    hero == 'sigma' ~ n_days,
+    hero == 'sojourn' ~ n_days,
+    hero == 'soldier: 76' ~ n_days,
+    hero == 'sombra' ~ n_days,
+    hero == 'symmetra' ~ n_days,
+    hero == 'torbjorn' ~ n_days,
+    hero == 'tracer' ~ n_days,
     hero == 'venture' ~ 188,
-    hero == 'widowmaker' ~ 749,
-    hero == 'winston' ~ 749,
-    hero == 'wrecking ball' ~ 749,
-    hero == 'zarya' ~ 749,
-    hero == 'zenyatta' ~ 749,
+    hero == 'widowmaker' ~ n_days,
+    hero == 'winston' ~ n_days,
+    hero == 'wrecking ball' ~ n_days,
+    hero == 'zarya' ~ n_days,
+    hero == 'zenyatta' ~ n_days,
     TRUE ~ days_since_release 
   )) 
 
-# ow_data$days_since_release = ow_data$days_since_release + [Number of days since 21 October 2024]
+# n_days = ow_data$days_since_release = ow_data$days_since_release + [Number of days since last updated]
 
 
 skin = subset(ow_data, select = c("hero", "skins"))
