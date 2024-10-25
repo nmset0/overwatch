@@ -9,7 +9,7 @@ library(stringr)
 # LAST UPDATED 25 OCTOBER 2024 #
 
 # Import dataset
-ow_data = read.csv("~/Data Raw/Overwatch2_HeroPatches_raw - Sheet1.csv")
+ow_data = read_csv("Datasets/Overwatch2_HeroPatches_raw - Sheet1.csv")
 
 # Exporting dataset
 #write.csv(ow_data, file = "C:/Users/natha/OneDrive/Documents/Data Clean/OverwatchHeroData_inProgress.csv")
@@ -19,7 +19,7 @@ ow_data = read.csv("~/Data Raw/Overwatch2_HeroPatches_raw - Sheet1.csv")
 n_days = 753
 
 ow_data = ow_data %>% mutate(id = 1:nrow(ow_data), .before = year) %>% mutate(month_num = match(month, month.name), .after = month) %>% # Adding new column with 
-  mutate(ow_data$`ow_data$skins == as.numeric(ow_data$skins)`) %>%                     # month's numbers, i.e. "January" -> 1, etc.
+  mutate(ow_data$`ow_data$skins = as.numeric(ow_data$skins)`) %>%                     # month's numbers, i.e. "January" -> 1, etc.
   mutate(change = gsub("sec", "seconds", ow_data$change)) %>%  # undoing abbreviation 
   mutate(hero = tolower(hero)) %>% # changing uppercase to lowercase
   mutate(ability = tolower(ability)) %>%
@@ -189,7 +189,7 @@ hero_buff_nerf_ratios = ow_data %>%
     buff_ratio = buff_count / n(),
     .groups = 'drop'
   )
-write.csv(hero_buff_nerf_ratios, file = "C:/Users/natha/OneDrive/Documents/Data Clean/hero_buff_nerf_ratios.csv")
+write.csv(hero_buff_nerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
 
 
 role_buff_nerf_ratios = ow_data %>%
@@ -201,7 +201,7 @@ role_buff_nerf_ratios = ow_data %>%
     buff_ratio = buff_count / n(),
     .groups = 'drop'
   )
-write.csv(role_buff_nerf_ratios, file = "C:/Users/natha/OneDrive/Documents/Data Clean/role_buff_nerf_ratios.csv")
+write.csv(role_buff_nerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
 
 
 ow_data = ow_data %>%
@@ -213,7 +213,7 @@ ow_data = ow_data %>%
 
 # Ratios of each hero's skins to total number of skins in Overwatch 2
 skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
-write.csv(skin_ratios, file = "C:/Users/natha/OneDrive/Documents/Data Clean/skin_ratios.csv")
+write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
 
 
 

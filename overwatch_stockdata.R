@@ -9,9 +9,9 @@ library(patchwork)
 # Loading Datasets
 
 # stock market data for Microsoft since 2020
-msft = read.csv("~/Data Raw/Microsoft_MSFT_StockPrice.csv")
+msft = read.csv("Datasets/Microsoft_MSFT_StockPrice.csv")
 #stock market data for Activision Blizzard from 2020 until acquisition
-atvi = read_csv("~/Data Raw/ActivisionBlizzard_ATVI_StockPrice.csv")
+atvi = read_csv("Datasets/ActivisionBlizzard_ATVI_StockPrice.csv")
 
 # Data cleaning
 msft$Vol. = gsub('M', "", msft$Vol.)
@@ -100,5 +100,5 @@ atvi_price
 
 
 # Data on Mythic hero skins
-mythic = read.csv("C:/Users/natha/OneDrive/Documents/Data Raw/ow_mythicskins.csv") %>% select(-X)
+mythic = read.csv("Datasets/ow_mythicskins.csv") %>% select(-X)
 
