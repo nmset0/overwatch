@@ -32,8 +32,8 @@ atvi = atvi %>% mutate(year = year(atvi$Date), .after = Date) %>%
   mutate(month = month(atvi$Date), .after = year) %>% 
   mutate(day = day(atvi$Date), .after = month)
 
-msft = msft %>% mutate(id = c(1:nrow(msft)), .before = Date)
-atvi = atvi %>% mutate(id = c(1:nrow(atvi)), .before = Date)
+msft = msft %>% mutate(id = 1:nrow(msft), .before = Date)
+atvi = atvi %>% mutate(id = 1:nrow(atvi), .before = Date)
 
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
