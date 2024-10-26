@@ -17,14 +17,14 @@ msft = msft %>% mutate(company = 'microsoft', .before = Price) %>% mutate(ticker
 
 msft_subset = subset(msft, Date > '2023-10-12')
 
-# joining the two stocks datasets onto each other
+# joining the two stocks' datasets onto each other
 stocks = rbind(atvi, msft_subset) 
 stocks = stocks %>% mutate(id = 1:nrow(stocks)) %>% rename(volume = Vol.) %>% rename(percent_change = Change..)
 
 
 
 
-# SQLite code, I felt this was more efficient than R
+# SQLite code, I felt this was more efficient than R code
 con = dbConnect(RSQLite::SQLite(), "overwatch.db")
 
 dbExecute(con, "DROP TABLE IF EXISTS stocks;")
@@ -69,9 +69,13 @@ CREATE TABLE mythics (
 
 dbWriteTable(con, "mythics", mythics, append = TRUE, row.names = FALSE)
 
-stocks_sql = dbGetQuery(con, "SELECT * FROM stocks WHERE Date IN (SELECT release_date FROM mythics);")
-
+# Execute the JOIN query
+stocks_sql = dbGetQuery(con, "
+  SELECT s.*, m.hero, m.mythic_skin, m.season, m.price_usd, m.price_prisms
+  FROM stocks s
+  JOIN mythics m ON s.Date = m.release_date;
+")
 dbDisconnect(con)
 
-
-stocks_sql
+stocks_skins_sql = stocks_sql %>% select(-Close)
+View(stocks_sql)
