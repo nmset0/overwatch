@@ -79,7 +79,7 @@ msft_price = ggplot(data = msft, aes(x = as.Date(Date), y = Price, group = 1, co
   geom_line(linewidth=0.8) + 
   scale_x_date(name = "Month/Year", date_labels = "%b %Y", date_breaks = "1 month") + 
   scale_color_manual(values = month_colors) + 
-  theme_minimal()
+  theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), legend.position = "none") + 
   geom_vline(xintercept = as.Date('2023-10-13'), color = "red3", linewidth = lw) + 
   labs(title = "Stock Price of Microsoft")
@@ -94,7 +94,7 @@ msft_price
 atvi_price = ggplot(data = atvi, aes(x = as.Date(Date), y = Price, group = 1, color = month)) +
   geom_line(linewidth=0.8) + scale_x_date(name = "Month/Year", date_labels = "%b %Y", date_breaks = "1 month") + 
   scale_color_manual(values = month_colors) + 
-  theme_minimal()
+  theme_minimal() + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), legend.position = "none") + 
   labs(title = "Stock Price of Activision")
 
