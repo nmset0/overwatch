@@ -1,0 +1,42 @@
+id,hero,role,tank_counters,damage_counters,support_counters
+1,ana,support,"winston, ramattra","echo, pharah, tracer",kiriko
+2,ashe,damage,zarya,"genji, tracer, widowmaker","ana, kiriko"
+3,baptiste,support,NA,"cassidy, ashe, mei",lucio
+4,bastion,damage,"zarya, orisa","junkrat, pharah, genji, tracer",ana
+5,brigitte,support,NA,"pharah, echo, junkrat",NA
+6,cassidy,damage,"reinhardt, winston","genji, cassidy",ana
+7,doomfist,tank,NA,"sombra, tracer, bastion, genji","ana, brigitte"
+8,dva,tank,"zarya, winston","symmetra, bastion, sojourn",moira
+9,echo,damage,"winston, zarya","ashe, cassidy, soldier: 76, widowmaker",NA
+10,genji,damage,"winston, zarya","symmetra, mei","moira, ana"
+11,hanzo,damage,"dva, wrecking ball","widowmaker, genji",lucio
+12,illari,support,"orisa, zarya, dva","cassidy, ashe, widowmaker","baptiste, lifeweaver, lucio"
+13,junker queen,tank,wrecking ball,widowmaker,"ana, lucio, kiriko"
+14,junkrat,damage,"zarya, wrecking ball","cassidy, soldier: 76","lucio, brigitte, lifeweaver"
+15,juno,support,"dva, winston, reinhardt","sombra, soldier: 76, widowmaker","lucio, ana"
+16,kiriko,support,roadhog,"tracer, sombra, genji, mei",NA
+17,lifeweaver,support,NA,"sombra, soldier: 76",lucio
+18,lucio,support,"winston, roadhog","soldier: 76, cassidy, symmetra, torbjorn, mei",moira
+19,mauga,tank,"doomfist, wrecking ball, mauga",sombra,"zenyatta, kiriko"
+20,mei,damage,dva,"sombra, pharah, echo",kiriko
+21,mercy,support,"winston, roadhog","echo, cassidy, widowmaker, genji, tracer",NA
+22,moira,support,"roadhog, zarya","echo, pharah, junkrat, mei, ashe",NA
+23,orisa,tank,"zarya, dva","mei, echo",moira
+24,pharah,damage,dva,"soldier: 76, cassidy, ashe, widowmaker",ana
+25,ramattra,tank,roadhog,"reaper, tracer, pharah, genji, cassidy",kiriko
+26,reaper,damage,zarya,"pharah, echo, junkrat, widowmaker",ana
+27,reinhardt,tank,NA,"sombra, cassidy, mei, pharah",zenyatta
+28,roadhog,tank,"wrecking ball, roadhog","reaper, echo, junkrat",ana
+29,sigma,tank,"ramattra, roadhog","genji, tracer, sombra",lucio
+30,sojourn,damage,"winston, mauga","genji, tracer",lucio
+31,soldier: 76,damage,roadhog,"ashe, cassidy, genji, junkrat","ana, lucio"
+32,sombra,damage,NA,"pharah, junkrat, hanzo, mei","kiriko, ana"
+33,symmetra,damage,"winston, mauga","pharah, junkrat, echo",NA
+34,torbjorn,damage,dva,"junkrat, ashe",NA
+35,tracer,damage,"winston, mauga","symmetra, torbjorn, mei","briggite, moira"
+36,venture,damage,"reinhardt, sigma, zarya, dva","pharah, soldier: 76, mei",ana
+37,widowmaker,damage,"dva, winston","genji, tracer, sombra",zenyatta
+38,winston,tank,zarya,"junkrat, pharah, bastion","ana, brigitte"
+39,wrecking ball,tank,"roadhog, doomfist","mei, sombra","ana, brigitte"
+40,zarya,tank,dva,"hanzo, widowmaker, cassidy, tracer",zenyatta
+41,zenyatta,support,NA,"junkrat, pharah, cassidy, ashe, tracer","kiriko, zenyatta"
