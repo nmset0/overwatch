@@ -148,6 +148,7 @@ ow_data = ow_data %>%
   ) %>%
   ungroup()
 
+
 # nerf_ratio for each hero = proportions of changes to this hero that have been nerfs
 # buff_ratio for each hero = proportions of changes to this hero that have been buffs 
 hero_buff_nerf_ratios = ow_data %>%
@@ -160,6 +161,7 @@ hero_buff_nerf_ratios = ow_data %>%
     .groups = 'drop'
   )
 write.csv(hero_buff_nerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
+
 
 # Total nerf/buff ratios
 total_buffs = sum(ow_data$is_buff, na.rm = TRUE)
@@ -191,6 +193,7 @@ role_buff_nerf_ratios = ow_data %>%
   )
 write.csv(role_buff_nerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
 
+
 # Adding the number of changes to each hero to the dataset
 ow_data = ow_data %>%
   group_by(hero) %>%
@@ -201,6 +204,7 @@ ow_data = ow_data %>%
 # Ratios of each hero's skins to total number of skins in Overwatch 2
 skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
 write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
+
 
 
 
