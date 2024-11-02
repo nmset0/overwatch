@@ -138,6 +138,11 @@ ow_data = ow_data %>%
     hero == 'zenyatta' ~ num_change[41,2]/row 
   ))
 
+# Ratios of each hero's skins to total number of skins in Overwatch 2
+skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
+write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
+
+
 # Get ratios of how many buffs and nerfs each hero has
 ow_data = ow_data %>%
   group_by(hero) %>%
@@ -214,10 +219,6 @@ ow_data = ow_data %>%
   mutate(number_of_changes = n(), .before = patch_ratio) %>% ungroup()
 
 
-# Ratios of each hero's skins to total number of skins in Overwatch 2
-skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
-write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
-
 
 
 
@@ -243,6 +244,6 @@ buffs_per_hero = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title
 # Number of skins each hero has and the ratio to total skins
 skin_count = arrange(skin_count, desc(skins))
   skin_count_table = skin_count %>% kable(col.names = c("Hero", "Number of Skins")) # Table of only number of skins per hero
-    skin_ratio_table = kable(skin_ratios)
-
+    skin_ratios = skin_ratios %>% arrange(desc(skin_ratio)) 
+      skin_ratios %>% kable()
 
