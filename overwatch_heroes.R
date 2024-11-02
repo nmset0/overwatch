@@ -208,9 +208,9 @@ write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
 
 
 
-# Some kable tables
-hero_changes = ow_data %>% count(str_to_title(hero)) %>% kable(col.names = c("Hero", "Number of Changes"))
-hero_changes
+# number of changes to each hero
+hero_changes = ow_data %>% count(str_to_title(hero)) 
+hero_changes %>% kable(col.names = c("Hero", "Number of Changes"))
 
 # Number of buffs and nerfs each role has and the ratios to total number of buffs and nerfs
 buffs_per_role = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title(role)) %>% kable(col.names = c("Role", "Times Buffed"))
