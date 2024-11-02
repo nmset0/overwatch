@@ -138,6 +138,11 @@ ow_data = ow_data %>%
     hero == 'zenyatta' ~ num_change[41,2]/row 
   ))
 
+# Adding the number of changes to each hero to the dataset
+ow_data = ow_data %>%
+  group_by(hero) %>%
+  mutate(number_of_changes = n(), .before = patch_ratio) %>% ungroup()
+
 # Ratios of each hero's skins to total number of skins in Overwatch 2
 skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
 write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
@@ -213,10 +218,7 @@ aggregate_role_buffnerf_ratios = aggregate_role_buffnerf_ratios %>%
 write.csv(aggregate_role_buffnerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
 
 
-# Adding the number of changes to each hero to the dataset
-ow_data = ow_data %>%
-  group_by(hero) %>%
-  mutate(number_of_changes = n(), .before = patch_ratio) %>% ungroup()
+
 
 
 
