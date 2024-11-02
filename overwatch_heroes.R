@@ -23,8 +23,7 @@ increment = 0
 
 ow_data = ow_data %>% mutate(id = 1:nrow(ow_data), .before = year) %>% 
   mutate(month_num = match(month, month.name), .after = month) %>% # Adding new column with 
-  mutate(ow_data$`ow_data$skins = as.numeric(ow_data$skins)`) %>%                     # month's numbers, i.e. "January" -> 1, etc.
-  mutate(change = gsub("sec", "seconds", ow_data$change)) %>%  # undoing abbreviation 
+  mutate(ow_data$`ow_data$skins = as.numeric(ow_data$skins)`) %>%  # undoing abbreviation 
   mutate(hero = tolower(hero)) %>% # changing uppercase to lowercase
   mutate(ability = tolower(ability)) %>%
   mutate(change = tolower(change)) %>%
@@ -160,14 +159,13 @@ hero_buff_nerf_ratios = ow_data %>%
     buff_ratio = buff_count / n(),
     .groups = 'drop'
   )
-write.csv(hero_buff_nerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
 
 
 # Total nerf/buff ratios
 total_buffs = sum(ow_data$is_buff, na.rm = TRUE)
 total_nerfs = sum(ow_data$is_nerf, na.rm = TRUE)
 
-total_nerf_buff_ratio = ow_data %>%
+aggregate_hero_buffnerf_ratios = ow_data %>%
   group_by(hero) %>%
   summarise(
     buffs = sum(is_buff, na.rm = TRUE),
@@ -176,29 +174,44 @@ total_nerf_buff_ratio = ow_data %>%
     total_nerf_ratio = nerfs / total_nerfs
   )
 
-total_nerf_buff_ratio
+aggregate_hero_buffnerf_ratios %>% arrange(desc(buffs)) %>% kable()
+aggregate_hero_buffnerf_ratios %>% arrange(desc(nerfs)) %>% kable()
+
+write.csv(aggregate_hero_buffnerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
+
 
 # Adding aggregate ratios to dataset
-ow_data = ow_data %>% left_join(total_nerf_buff_ratio %>% select(hero, total_buff_ratio, total_nerf_ratio), by = "hero")
+ow_data = ow_data %>% left_join(aggregate_hero_buffnerf_ratios %>% select(hero, total_buff_ratio, total_nerf_ratio), by = "hero")
 
 
-role_buff_nerf_ratios = ow_data %>%
-  group_by(role) %>%
+
+# Calculate total buffs and nerfs across all roles
+total_counts = ow_data %>% summarise( total_nerfs = sum(is_nerf), total_buffs = sum(is_buff))
+
+# Calculate role-based buff and nerf counts and ratios relative to overall counts
+aggregate_role_buffnerf_ratios = ow_data %>% group_by(role) %>%
   summarise(
     nerf_count = sum(is_nerf),
     buff_count = sum(is_buff),
-    nerf_ratio = nerf_count / n(),
-    buff_ratio = buff_count / n(),
+    nerf_ratio = nerf_count / total_counts$total_nerfs,
+    buff_ratio = buff_count / total_counts$total_buffs,
     .groups = 'drop'
   )
-write.csv(role_buff_nerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
+
+aggregate_role_buffnerf_ratios = aggregate_role_buffnerf_ratios %>% 
+  bind_rows(summarise(aggregate_role_buffnerf_ratios, role = "Total", 
+                                                    nerf_count = sum(nerf_count),
+                                                    buff_count = sum(buff_count), 
+                                                    nerf_ratio = sum(nerf_ratio),
+                                                    buff_ratio = sum(buff_ratio)))
+
+write.csv(aggregate_role_buffnerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
 
 
 # Adding the number of changes to each hero to the dataset
 ow_data = ow_data %>%
   group_by(hero) %>%
-  mutate(number_of_changes = n(), .before = patch_ratio) %>%
-  ungroup()
+  mutate(number_of_changes = n(), .before = patch_ratio) %>% ungroup()
 
 
 # Ratios of each hero's skins to total number of skins in Overwatch 2
@@ -209,22 +222,23 @@ write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
 
 
 # number of changes to each hero
-hero_changes = ow_data %>% count(str_to_title(hero)) 
-hero_changes %>% kable(col.names = c("Hero", "Number of Changes"))
+hero_changes = ow_data %>% count(str_to_title(hero)) %>% arrange(n)
+hero_changes %>% kable(col.names = c("Hero", "Number of Changes")) 
 
 # Number of buffs and nerfs each role has and the ratios to total number of buffs and nerfs
-buffs_per_role = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title(role)) %>% kable(col.names = c("Role", "Times Buffed"))
-  nerfs_per_role = ow_data %>% subset(ow_data$is_nerf == 1) %>% count(str_to_title(role)) %>% kable(col.names = c("Role", "Times Nerfed")) 
-    buffs_per_role
-      nerfs_per_role
-        role_buff_nerf_table = kable(role_buff_nerf_ratios)
+buffs_per_role = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title(role)) 
+  nerfs_per_role = ow_data %>% subset(ow_data$is_nerf == 1) %>% count(str_to_title(role))  
+    buffs_per_role %>% kable(col.names = c("Role", "Times Buffed"))
+      nerfs_per_role %>% kable(col.names = c("Role", "Times Nerfed"))
+        role_buff_nerf_table = aggregate_role_buffnerf_ratios %>% kable(col.names = c("Role", "Nerfs", "Buffs", "Overall Nerf Ratio", "Overall Buff Ratio"))
+          role_buff_nerf_table
 
 # Number of buffs and nerfs each hero has and the ratios to total number of buffs and nerfs
-buffs_per_hero = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title(hero)) %>% kable(col.names = c("Hero", "Times Buffed"))
-  nerfs_per_hero = ow_data %>% subset(ow_data$is_nerf == 1) %>% count(str_to_title(hero)) %>% kable(col.names = c("Hero", "Times Nerfed"))
-    buffs_per_hero
-      nerfs_per_hero
-        hero_buff_nerf_table = kable(hero_buff_nerf_ratios)
+buffs_per_hero = ow_data %>% subset(ow_data$is_buff == 1) %>% count(str_to_title(hero)) %>% arrange(desc(n))
+  nerfs_per_hero = ow_data %>% subset(ow_data$is_nerf == 1) %>% count(str_to_title(hero)) %>% arrange(desc(n))
+    buffs_per_hero %>% kable(col.names = c("Hero", "Buff Count"))
+      nerfs_per_hero %>% kable(col.names = c("Hero", "Nerf Count"))
+        aggregate_hero_buffnerf_ratios %>% kable(col.names = c("Hero", "Buffs", "Nerfs", "Buff Ratio All Heroes", "Nerf Ratio All Heroes"))
 
 # Number of skins each hero has and the ratio to total skins
 skin_count = arrange(skin_count, desc(skins))
