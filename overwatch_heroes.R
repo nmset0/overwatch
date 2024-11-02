@@ -137,6 +137,7 @@ ow_data = ow_data %>%
     hero == 'zarya' ~ num_change[40,2]/row,
     hero == 'zenyatta' ~ num_change[41,2]/row 
   ))
+ow_data$days_since_release = as.integer(ow_data$days_since_release)
 
 # Adding the number of changes to each hero to the dataset
 ow_data = ow_data %>%
@@ -188,6 +189,7 @@ aggregate_hero_buffnerf_ratios %>% arrange(desc(buffs)) %>% kable()
 aggregate_hero_buffnerf_ratios %>% arrange(desc(nerfs)) %>% kable()
 
 write.csv(aggregate_hero_buffnerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
+
 
 
 # Adding aggregate ratios to dataset
