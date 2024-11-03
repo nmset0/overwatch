@@ -12,7 +12,7 @@ library(stringr)
 ow_data = read_csv("Datasets/Overwatch2_HeroPatches_raw - Sheet1.csv")
 
 # Exporting dataset
-# write.csv(ow_data, file = "Datasets/OverwatchHeroData_clean.csv")
+# write_csv(ow_data, file = "Datasets/OverwatchHeroData_clean.csv")
 
 # Data cleaning 
 n_days = 758
@@ -95,48 +95,49 @@ num_change = ow_data %>% count(str_to_title(hero))
 # Calculate ratio of changes and add to data
 ow_data = ow_data %>%
   mutate(patch_ratio = case_when(
-    hero == 'ana' ~ num_change[1,2]/row,
-    hero == 'ashe' ~ num_change[2,2]/row,
-    hero == 'baptiste' ~ num_change[3,2]/row,
-    hero == 'bastion' ~ num_change[4,2]/row,
-    hero == 'brigitte' ~ num_change[5,2]/row, 
-    hero == 'cassidy' ~ num_change[6,2]/row,
-    hero == 'dva' ~ num_change[8,2]/row, 
-    hero == 'doomfist' ~ num_change[7,2]/row, 
-    hero == 'echo' ~ num_change[9,2]/row,
-    hero == 'genji' ~ num_change[10,2]/row,
-    hero == 'hanzo' ~ num_change[11,2]/row,
-    hero == 'illari' ~ num_change[12,2]/row,
-    hero == 'junker queen' ~ num_change[13,2]/row,
-    hero == 'junkrat' ~ num_change[14,2]/row,
-    hero == 'juno' ~ num_change[15,2]/row,
-    hero == 'kiriko' ~ num_change[16,2]/row,
-    hero == 'lifeweaver' ~ num_change[17,2]/row,
-    hero == 'lucio' ~ num_change[18,2]/row,
-    hero == 'mauga' ~ num_change[19,2]/row,
-    hero == 'mei' ~ num_change[20,2]/row,
-    hero == 'mercy' ~ num_change[21,2]/row,
-    hero == 'moira' ~ num_change[22,2]/row,
-    hero == 'orisa' ~ num_change[23,2]/row,
-    hero == 'pharah' ~ num_change[24,2]/row, 
-    hero == 'ramattra' ~ num_change[25,2]/row,
-    hero == 'reaper' ~ num_change[26,2]/row,
-    hero == 'reinhardt' ~ num_change[27,2]/row,
-    hero == 'roadhog' ~ num_change[28,2]/row,
-    hero == 'sigma' ~ num_change[29,2]/row,
-    hero == 'sojourn' ~ num_change[30,2]/row,
-    hero == 'soldier: 76' ~ num_change[31,2]/row,
-    hero == 'sombra' ~ num_change[32,2]/row,
-    hero == 'symmetra' ~ num_change[33,2]/row,
-    hero == 'torbjorn' ~ num_change[34,2]/row,
-    hero == 'tracer' ~ num_change[35,2]/row,
-    hero == 'venture' ~ num_change[36,2]/row,
-    hero == 'widowmaker' ~ num_change[37,2]/row,
-    hero == 'winston' ~ num_change[38,2]/row,
-    hero == 'wrecking ball' ~ num_change[39,2]/row,
-    hero == 'zarya' ~ num_change[40,2]/row,
-    hero == 'zenyatta' ~ num_change[41,2]/row 
+    hero == 'ana' ~ as.numeric(num_change[1, 2] / row),
+    hero == 'ashe' ~ as.numeric(num_change[2, 2] / row),
+    hero == 'baptiste' ~ as.numeric(num_change[3, 2] / row),
+    hero == 'bastion' ~ as.numeric(num_change[4, 2] / row),
+    hero == 'brigitte' ~ as.numeric(num_change[5, 2] / row), 
+    hero == 'cassidy' ~ as.numeric(num_change[6, 2] / row),
+    hero == 'dva' ~ as.numeric(num_change[8, 2] / row), 
+    hero == 'doomfist' ~ as.numeric(num_change[7, 2] / row), 
+    hero == 'echo' ~ as.numeric(num_change[9, 2] / row),
+    hero == 'genji' ~ as.numeric(num_change[10, 2] / row),
+    hero == 'hanzo' ~ as.numeric(num_change[11, 2] / row),
+    hero == 'illari' ~ as.numeric(num_change[12, 2] / row),
+    hero == 'junker queen' ~ as.numeric(num_change[13, 2] / row),
+    hero == 'junkrat' ~ as.numeric(num_change[14, 2] / row),
+    hero == 'juno' ~ as.numeric(num_change[15, 2] / row),
+    hero == 'kiriko' ~ as.numeric(num_change[16, 2] / row),
+    hero == 'lifeweaver' ~ as.numeric(num_change[17, 2] / row),
+    hero == 'lucio' ~ as.numeric(num_change[18, 2] / row),
+    hero == 'mauga' ~ as.numeric(num_change[19, 2] / row),
+    hero == 'mei' ~ as.numeric(num_change[20, 2] / row),
+    hero == 'mercy' ~ as.numeric(num_change[21, 2] / row),
+    hero == 'moira' ~ as.numeric(num_change[22, 2] / row),
+    hero == 'orisa' ~ as.numeric(num_change[23, 2] / row),
+    hero == 'pharah' ~ as.numeric(num_change[24, 2] / row), 
+    hero == 'ramattra' ~ as.numeric(num_change[25, 2] / row),
+    hero == 'reaper' ~ as.numeric(num_change[26, 2] / row),
+    hero == 'reinhardt' ~ as.numeric(num_change[27, 2] / row),
+    hero == 'roadhog' ~ as.numeric(num_change[28, 2] / row),
+    hero == 'sigma' ~ as.numeric(num_change[29, 2] / row),
+    hero == 'sojourn' ~ as.numeric(num_change[30, 2] / row),
+    hero == 'soldier: 76' ~ as.numeric(num_change[31, 2] / row),
+    hero == 'sombra' ~ as.numeric(num_change[32, 2] / row),
+    hero == 'symmetra' ~ as.numeric(num_change[33, 2] / row),
+    hero == 'torbjorn' ~ as.numeric(num_change[34, 2] / row),
+    hero == 'tracer' ~ as.numeric(num_change[35, 2] / row),
+    hero == 'venture' ~ as.numeric(num_change[36, 2] / row),
+    hero == 'widowmaker' ~ as.numeric(num_change[37, 2] / row),
+    hero == 'winston' ~ as.numeric(num_change[38, 2] / row),
+    hero == 'wrecking ball' ~ as.numeric(num_change[39, 2] / row),
+    hero == 'zarya' ~ as.numeric(num_change[40, 2] / row),
+    hero == 'zenyatta' ~ as.numeric(num_change[41, 2] / row)
   ))
+
 ow_data$days_since_release = as.integer(ow_data$days_since_release)
 
 # Adding the number of changes to each hero to the dataset
@@ -146,7 +147,7 @@ ow_data = ow_data %>%
 
 # Ratios of each hero's skins to total number of skins in Overwatch 2
 skin_ratios = unique(ow_data %>% group_by(hero) %>% select(hero, skins, skin_ratio)) %>% arrange(hero)
-write.csv(skin_ratios, file = "Datasets/skin_ratios.csv")
+write_csv(skin_ratios, file = "Datasets/skin_ratios.csv")
 
 
 # Get ratios of how many buffs and nerfs each hero has
@@ -188,7 +189,7 @@ aggregate_hero_buffnerf_ratios = ow_data %>%
 aggregate_hero_buffnerf_ratios %>% arrange(desc(buffs)) %>% kable()
 aggregate_hero_buffnerf_ratios %>% arrange(desc(nerfs)) %>% kable()
 
-write.csv(aggregate_hero_buffnerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
+write_csv(aggregate_hero_buffnerf_ratios, file = "Datasets/hero_buff_nerf_ratios.csv")
 
 
 
@@ -217,7 +218,7 @@ aggregate_role_buffnerf_ratios = aggregate_role_buffnerf_ratios %>%
                                                     nerf_ratio = sum(nerf_ratio),
                                                     buff_ratio = sum(buff_ratio)))
 
-write.csv(aggregate_role_buffnerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
+write_csv(aggregate_role_buffnerf_ratios, file = "Datasets/role_buff_nerf_ratios.csv")
 
 
 
