@@ -58,7 +58,6 @@ stock_value_buyatvi %>% kable(caption = "Stock value the day of Microsoft acquis
 
 # Data on Mythic hero skins
 mythic = read.csv("Datasets/ow_mythicskins.csv") %>% select(-X)
-mythic$release_date = format(as.Date(mythic$release_date, format = "%m/%d/%Y"), "%Y-%m-%d")
 mythic_noWidow = subset(mythic, hero != 'Widowmaker')
 temp_frame_mythic_dates_noWidowmaker = data.frame(mythic_noWidow$release_date)
 colnames(temp_frame_mythic_dates_noWidowmaker) = c("release_date")
